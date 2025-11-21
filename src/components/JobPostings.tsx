@@ -10,12 +10,24 @@ import {
 } from "recharts";
 import jobPostingsData from "../data/job-postings-index.json";
 
-export default function JobPostings() {
-  const chartData = jobPostingsData.map((item) => ({
+const twoDecimalPlacesFormatter = Intl.NumberFormat(undefined, {
+  maximumFractionDigits: 2,
+  minimumFractionDigits: 2,
+});
+
+const EMA_PERIOD = 90;
+const k = 2 / (EMA_PERIOD + 1);
+const chartData: { date: string; value: number; ema: number }[] = [];
+for (let i = 0; i < jobPostingsData.length; i++) {
+  const item = jobPostingsData[i];
+  chartData.push({
     date: item.dateString,
     value: item.value,
-  }));
+    ema: i ? item.value * k + chartData[i - 1].ema * (1 - k) : item.value,
+  });
+}
 
+export default function JobPostings() {
   return (
     <>
       <h1>UK software development job postings index</h1>
@@ -62,16 +74,29 @@ export default function JobPostings() {
                 year: "numeric",
               });
             }}
-            formatter={(value: number) => [value.toFixed(2), "Index"]}
+            formatter={(value, _, props) => [
+              twoDecimalPlacesFormatter.format(Number(value)),
+              props.dataKey === "value"
+                ? "Job postings index"
+                : "Moving average",
+            ]}
           />
           <Legend />
           <Line
-            type="monotone"
             dataKey="value"
             stroke="#8884d8"
             strokeWidth={2}
             dot={false}
-            name="Job Postings Index"
+            name="Job postings index"
+          />
+          <Line
+            type="monotone"
+            dataKey="ema"
+            stroke="#4ecdc4"
+            strokeWidth={2}
+            dot={false}
+            name="90-day expoenential moving average"
+            strokeDasharray="5 5"
           />
         </LineChart>
       </ResponsiveContainer>
