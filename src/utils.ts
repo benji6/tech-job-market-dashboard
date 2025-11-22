@@ -5,3 +5,7 @@ export const defaultDict = <V>(createDefaultValue: () => V) =>
       return target[key];
     },
   });
+
+export const integerFormatter = Intl.NumberFormat(undefined, {
+  maximumFractionDigits: 0,
+});
