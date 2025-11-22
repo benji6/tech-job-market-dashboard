@@ -59,17 +59,14 @@ export default function LayoffsByMonth() {
             label={{ value: "Layoffs", angle: -90, position: "insideLeft" }}
           />
           <Tooltip
-            formatter={(value, _, props) => {
-              if (value === null) return null;
-              return [
-                integerFormatter.format(Number(value)),
-                props.dataKey === "trueup"
-                  ? "trueup"
-                  : props.dataKey === "fyi"
-                    ? "Layoffs.fyi"
-                    : "Moving average",
-              ];
-            }}
+            formatter={(value, _, props) => [
+              integerFormatter.format(Number(value)),
+              props.dataKey === "trueup"
+                ? "trueup"
+                : props.dataKey === "fyi"
+                  ? "Layoffs.fyi"
+                  : "Moving average",
+            ]}
           />
           <Legend />
           <Bar dataKey="trueup" fill="#ff6b6b" name="trueup" />

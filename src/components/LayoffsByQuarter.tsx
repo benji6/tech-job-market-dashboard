@@ -21,15 +21,30 @@ for (const item of layoffsMonthlyTrueupData) {
 }
 layoffsTrueupByQuarter = { ...layoffsTrueupByQuarter };
 
-const quarterlyLayoffsData = layoffsQuarterlyFyiData.map((item) => {
-  const trueup = layoffsTrueupByQuarter[item.date];
-  return {
-    average: trueup === null ? null : (item.value + trueup) / 2,
+const EMA_PERIOD = 4;
+const k = 2 / (EMA_PERIOD + 1);
+const layoffsData: {
+  period: string;
+  fyi: number;
+  trueup: number | undefined;
+  average: number | undefined;
+  ema: number | undefined;
+}[] = [];
+for (let i = 0; i < layoffsQuarterlyFyiData.length; i++) {
+  const item = layoffsQuarterlyFyiData[i];
+  const fyi = item.value;
+  const trueup: number | undefined = layoffsTrueupByQuarter[item.date];
+  const average = trueup === undefined ? undefined : (item.value + trueup) / 2;
+  const lastEma = i ? layoffsData[i - 1].ema : undefined;
+  const emaBase = average ?? fyi;
+  layoffsData.push({
     period: item.date,
+    fyi,
     trueup,
-    fyi: item.value,
-  };
-});
+    average,
+    ema: lastEma === undefined ? emaBase : emaBase * k + lastEma * (1 - k),
+  });
+}
 
 export default function LayoffsByQuarter() {
   return (
@@ -37,7 +52,7 @@ export default function LayoffsByQuarter() {
       <h2>Layoffs by quarter</h2>
       <ResponsiveContainer width="100%" height={500}>
         <ComposedChart
-          data={quarterlyLayoffsData}
+          data={layoffsData}
           margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
         >
           <CartesianGrid strokeDasharray="3 3" />
@@ -46,25 +61,22 @@ export default function LayoffsByQuarter() {
             label={{ value: "Layoffs", angle: -90, position: "insideLeft" }}
           />
           <Tooltip
-            formatter={(value, _, props) => {
-              if (value === null) return null;
-              return [
-                integerFormatter.format(Number(value)),
-                props.dataKey === "trueup"
-                  ? "trueup"
-                  : props.dataKey === "fyi"
-                    ? "Layoffs.fyi"
-                    : "Moving average",
-              ];
-            }}
+            formatter={(value, _, props) => [
+              integerFormatter.format(Number(value)),
+              props.dataKey === "trueup"
+                ? "trueup"
+                : props.dataKey === "fyi"
+                  ? "Layoffs.fyi"
+                  : "Moving average",
+            ]}
           />
           <Legend />
           <Bar dataKey="trueup" fill="#ff6b6b" name="trueup" />
           <Bar dataKey="fyi" fill="#9b59b6" name="Layoffs.fyi" />
           <Line
-            dataKey="average"
+            dataKey="ema"
             dot={{ fill: "#4ecdc4" }}
-            name="Average"
+            name="4-quarter exponential moving average (using average of all available data points)"
             stroke="#4ecdc4"
             strokeDasharray="5 5"
             strokeWidth={2}
