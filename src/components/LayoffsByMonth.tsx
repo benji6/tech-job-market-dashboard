@@ -11,7 +11,11 @@ import {
 } from "recharts";
 import layoffsMonthlyTrueupData from "../data/layoffs-monthly-trueup.json";
 import layoffsMonthlyFyiData from "../data/layoffs-monthly-fyi.json";
-import { integerFormatter } from "../utils";
+import { defaultDict, integerFormatter, sum } from "../utils";
+
+const layoffsFyiByMonth = defaultDict(() => 0);
+for (const { date, value } of layoffsMonthlyFyiData)
+  layoffsFyiByMonth[date] = value;
 
 let monthlyTrueupByDate: Record<string, number> = {};
 for (const item of layoffsMonthlyTrueupData) {
@@ -19,27 +23,39 @@ for (const item of layoffsMonthlyTrueupData) {
 }
 monthlyTrueupByDate = { ...monthlyTrueupByDate };
 
+const totalTrueupLayoffs = sum(Object.values(monthlyTrueupByDate));
+
+let totalFyiLayoffsOverlappingWithTrueupPeriod = 0;
+for (const k of Object.keys(monthlyTrueupByDate))
+  totalFyiLayoffsOverlappingWithTrueupPeriod += layoffsFyiByMonth[k];
+
+const trueupScalingFactorForAverage =
+  totalFyiLayoffsOverlappingWithTrueupPeriod / totalTrueupLayoffs;
+
 const EMA_PERIOD = 3;
 const k = 2 / (EMA_PERIOD + 1);
 const monthlyLayoffsData: {
   date: string;
   fyi: number;
   trueup: number | undefined;
-  average: number | undefined;
+  normalizedAverage: number | undefined;
   ema: number | undefined;
 }[] = [];
 for (let i = 0; i < layoffsMonthlyFyiData.length; i++) {
   const item = layoffsMonthlyFyiData[i];
   const fyi = item.value;
   const trueup: number | undefined = monthlyTrueupByDate[item.date];
-  const average = trueup === undefined ? undefined : (item.value + trueup) / 2;
+  const normalizedAverage =
+    trueup === undefined
+      ? undefined
+      : (item.value + trueup * trueupScalingFactorForAverage) / 2;
   const lastEma = i ? monthlyLayoffsData[i - 1].ema : undefined;
-  const emaBase = average ?? fyi;
+  const emaBase = normalizedAverage ?? fyi;
   monthlyLayoffsData.push({
     date: item.date,
     fyi,
     trueup,
-    average,
+    normalizedAverage,
     ema: lastEma === undefined ? emaBase : emaBase * k + lastEma * (1 - k),
   });
 }
@@ -65,7 +81,7 @@ export default function LayoffsByMonth() {
                 ? "trueup"
                 : props.dataKey === "fyi"
                   ? "Layoffs.fyi"
-                  : "Moving average",
+                  : "Trend",
             ]}
           />
           <Legend />

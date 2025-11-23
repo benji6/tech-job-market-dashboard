@@ -11,12 +11,11 @@ import {
 } from "recharts";
 import layoffsQuarterlyFyiData from "../data/layoffs-quarterly-fyi.json";
 import layoffsMonthlyTrueupData from "../data/layoffs-monthly-trueup.json";
-import { defaultDict, integerFormatter } from "../utils";
+import { defaultDict, integerFormatter, sum } from "../utils";
 
-let layoffsFyiByQuarter = defaultDict(() => 0);
+const layoffsFyiByQuarter = defaultDict(() => 0);
 for (const { date, value } of layoffsQuarterlyFyiData)
   layoffsFyiByQuarter[date] = value;
-layoffsFyiByQuarter = { ...layoffsFyiByQuarter };
 
 let layoffsTrueupByQuarter = defaultDict(() => 0);
 let skipUntilQuarterStart = true;
@@ -32,8 +31,7 @@ for (const item of layoffsMonthlyTrueupData) {
 }
 layoffsTrueupByQuarter = { ...layoffsTrueupByQuarter };
 
-let totalTrueupLayoffs = 0;
-for (const v of Object.values(layoffsTrueupByQuarter)) totalTrueupLayoffs += v;
+const totalTrueupLayoffs = sum(Object.values(layoffsTrueupByQuarter));
 
 let totalFyiLayoffsOverlappingWithTrueupPeriod = 0;
 for (const k of Object.keys(layoffsTrueupByQuarter))
