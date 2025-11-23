@@ -13,6 +13,11 @@ import layoffsQuarterlyFyiData from "../data/layoffs-quarterly-fyi.json";
 import layoffsMonthlyTrueupData from "../data/layoffs-monthly-trueup.json";
 import { defaultDict, integerFormatter } from "../utils";
 
+let layoffsFyiByQuarter = defaultDict(() => 0);
+for (const { date, value } of layoffsQuarterlyFyiData)
+  layoffsFyiByQuarter[date] = value;
+layoffsFyiByQuarter = { ...layoffsFyiByQuarter };
+
 let layoffsTrueupByQuarter = defaultDict(() => 0);
 let skipUntilQuarterStart = true;
 for (const item of layoffsMonthlyTrueupData) {
@@ -27,27 +32,40 @@ for (const item of layoffsMonthlyTrueupData) {
 }
 layoffsTrueupByQuarter = { ...layoffsTrueupByQuarter };
 
+let totalTrueupLayoffs = 0;
+for (const v of Object.values(layoffsTrueupByQuarter)) totalTrueupLayoffs += v;
+
+let totalFyiLayoffsOverlappingWithTrueupPeriod = 0;
+for (const k of Object.keys(layoffsTrueupByQuarter))
+  totalFyiLayoffsOverlappingWithTrueupPeriod += layoffsFyiByQuarter[k];
+
+const trueupScalingFactorForAverage =
+  totalFyiLayoffsOverlappingWithTrueupPeriod / totalTrueupLayoffs;
+
 const EMA_PERIOD = 4;
 const k = 2 / (EMA_PERIOD + 1);
 const layoffsData: {
-  period: string;
-  fyi: number;
-  trueup: number | undefined;
-  average: number | undefined;
   ema: number | undefined;
+  fyi: number;
+  normalizedAverage: number | undefined;
+  period: string;
+  trueup: number | undefined;
 }[] = [];
 for (let i = 0; i < layoffsQuarterlyFyiData.length; i++) {
   const item = layoffsQuarterlyFyiData[i];
   const fyi = item.value;
   const trueup: number | undefined = layoffsTrueupByQuarter[item.date];
-  const average = trueup === undefined ? undefined : (item.value + trueup) / 2;
+  const normalizedAverage =
+    trueup === undefined
+      ? undefined
+      : (item.value + trueup * trueupScalingFactorForAverage) / 2;
   const lastEma = i ? layoffsData[i - 1].ema : undefined;
-  const emaBase = average ?? fyi;
+  const emaBase = normalizedAverage ?? fyi;
   layoffsData.push({
     period: item.date,
     fyi,
     trueup,
-    average,
+    normalizedAverage,
     ema: lastEma === undefined ? emaBase : emaBase * k + lastEma * (1 - k),
   });
 }
@@ -73,7 +91,7 @@ export default function LayoffsByQuarter() {
                 ? "trueup"
                 : props.dataKey === "fyi"
                   ? "Layoffs.fyi"
-                  : "Moving average",
+                  : "Trend",
             ]}
           />
           <Legend />
