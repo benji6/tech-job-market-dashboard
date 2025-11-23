@@ -98,7 +98,7 @@ export default function LayoffsByQuarter() {
           <Line
             dataKey="ema"
             dot={{ fill: "#4ecdc4" }}
-            name="4-quarter exponential moving average (using average of all available data points)"
+            name="4-quarter exponential moving average"
             stroke="#4ecdc4"
             strokeDasharray="5 5"
             strokeWidth={2}

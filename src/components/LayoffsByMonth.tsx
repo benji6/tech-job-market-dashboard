@@ -90,7 +90,7 @@ export default function LayoffsByMonth() {
           <Line
             dataKey="ema"
             dot={{ fill: "#4ecdc4" }}
-            name="3-month exponential moving average (using average of all available data points)"
+            name="3-month exponential moving average"
             stroke="#4ecdc4"
             strokeDasharray="5 5"
             strokeWidth={2}
