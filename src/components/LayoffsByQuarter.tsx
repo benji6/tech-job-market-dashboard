@@ -14,9 +14,15 @@ import layoffsMonthlyTrueupData from "../data/layoffs-monthly-trueup.json";
 import { defaultDict, integerFormatter } from "../utils";
 
 let layoffsTrueupByQuarter = defaultDict(() => 0);
+let skipUntilQuarterStart = true;
 for (const item of layoffsMonthlyTrueupData) {
   const [year, month] = item.date.split("-");
-  const quarter = `Q${Math.floor((parseInt(month) - 1) / 3) + 1}`;
+  const monthInt = Number(month) - 1;
+  if (skipUntilQuarterStart) {
+    if (monthInt % 3) continue;
+    skipUntilQuarterStart = false;
+  }
+  const quarter = `Q${Math.floor(monthInt / 3) + 1}`;
   layoffsTrueupByQuarter[`${year}-${quarter}`] += item.value;
 }
 layoffsTrueupByQuarter = { ...layoffsTrueupByQuarter };
