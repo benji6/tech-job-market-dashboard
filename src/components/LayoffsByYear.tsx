@@ -10,11 +10,11 @@ import {
   Line,
 } from "recharts";
 import layoffsAnnualTrueupData from "../data/layoffs-annual-trueup.json";
-import layoffsQuarterlyFyiData from "../data/layoffs-quarterly-fyi.json";
+import layoffsMonthlyFYIData from "../data/layoffs-monthly-fyi.json";
 import { defaultDict, integerFormatter } from "../utils";
 
 const layoffsFyiByYear = defaultDict(() => 0);
-for (const item of layoffsQuarterlyFyiData)
+for (const item of layoffsMonthlyFYIData)
   layoffsFyiByYear[item.date.split("-", 1)[0]] += item.value;
 
 const annualLayoffsData = layoffsAnnualTrueupData.map((item) => {

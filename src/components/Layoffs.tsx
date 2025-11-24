@@ -29,16 +29,15 @@ export default function Layoffs() {
               projection).
             </li>
             <li>
-              Trends in the quarterly and monthly chartsare computed with
-              exponential moving averages. Where trueup data is available it is
-              normalized to match the layoffs.fyi data within the overlapping
-              period before calculating the trend.
+              Trends in the monthly chart are computed with exponential moving
+              averages. Where trueup data is available it is normalized to match
+              the layoffs.fyi data within the overlapping period before
+              calculating the trend.
             </li>
           </ul>
         </details>
       </small>
       <LayoffsByYear />
-      <LayoffsByQuarter />
       <LayoffsByMonth />
     </>
   );
