@@ -32,14 +32,15 @@ for (const k of Object.keys(monthlyTrueupByDate))
 const trueupScalingFactorForAverage =
   totalFyiLayoffsOverlappingWithTrueupPeriod / totalTrueupLayoffs;
 
-const EMA_PERIOD = 3;
-const k = 2 / (EMA_PERIOD + 1);
+const k3 = 2 / (3 + 1);
+const k12 = 2 / (12 + 1);
 const monthlyLayoffsData: {
   date: string;
   fyi: number;
   trueup: number | undefined;
   normalizedAverage: number | undefined;
-  ema: number | undefined;
+  ema3: number;
+  ema12: number;
 }[] = [];
 for (let i = 0; i < layoffsMonthlyFyiData.length; i++) {
   const item = layoffsMonthlyFyiData[i];
@@ -49,14 +50,17 @@ for (let i = 0; i < layoffsMonthlyFyiData.length; i++) {
     trueup === undefined
       ? undefined
       : (item.value + trueup * trueupScalingFactorForAverage) / 2;
-  const lastEma = i ? monthlyLayoffsData[i - 1].ema : undefined;
+  const lastEma3 = i ? monthlyLayoffsData[i - 1].ema3 : undefined;
+  const lastEma12 = i ? monthlyLayoffsData[i - 1].ema12 : undefined;
   const emaBase = normalizedAverage ?? fyi;
   monthlyLayoffsData.push({
     date: item.date,
     fyi,
     trueup,
     normalizedAverage,
-    ema: lastEma === undefined ? emaBase : emaBase * k + lastEma * (1 - k),
+    ema3: lastEma3 === undefined ? emaBase : emaBase * k3 + lastEma3 * (1 - k3),
+    ema12:
+      lastEma12 === undefined ? emaBase : emaBase * k12 + lastEma12 * (1 - k12),
   });
 }
 
@@ -81,14 +85,24 @@ export default function LayoffsByMonth() {
                 ? "trueup"
                 : props.dataKey === "fyi"
                   ? "Layoffs.fyi"
-                  : "Trend",
+                  : props.dataKey === "ema3"
+                    ? "3-month trend"
+                    : "12-month trend",
             ]}
           />
           <Legend />
           <Bar dataKey="trueup" fill="#ff6b6b" name="trueup" />
           <Bar dataKey="fyi" fill="#9b59b6" name="Layoffs.fyi" />
           <Line
-            dataKey="ema"
+            dataKey="ema12"
+            dot={{ fill: "#f39c12" }}
+            name="12-month exponential moving average"
+            stroke="#f39c12"
+            strokeWidth={2}
+            type="monotone"
+          />
+          <Line
+            dataKey="ema3"
             dot={{ fill: "#4ecdc4" }}
             name="3-month exponential moving average"
             stroke="#4ecdc4"
