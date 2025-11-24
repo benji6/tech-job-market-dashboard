@@ -68,6 +68,10 @@ export default function Layoffs() {
           <summary>Notes</summary>
           <ul>
             <li>
+              This is OSINT and is likely a significant underestimate, although
+              it can give insight into trends.
+            </li>
+            <li>
               Latest data is not complete yet so the last period is likely
               understated (except the trueup annual 2025 data which is a
               projection).
