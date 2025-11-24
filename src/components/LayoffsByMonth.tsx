@@ -98,6 +98,7 @@ export default function LayoffsByMonth() {
             dot={{ fill: "#f39c12" }}
             name="12-month exponential moving average"
             stroke="#f39c12"
+            strokeDasharray="5 5"
             strokeWidth={2}
             type="monotone"
           />

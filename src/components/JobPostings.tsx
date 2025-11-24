@@ -9,11 +9,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import jobPostingsData from "../data/job-postings-index.json";
-
-const twoDecimalPlacesFormatter = Intl.NumberFormat(undefined, {
-  maximumFractionDigits: 2,
-  minimumFractionDigits: 2,
-});
+import { integerFormatter } from "../utils";
 
 const EMA_PERIOD = 90;
 const k = 2 / (EMA_PERIOD + 1);
@@ -75,7 +71,7 @@ export default function JobPostings() {
               });
             }}
             formatter={(value, _, props) => [
-              twoDecimalPlacesFormatter.format(Number(value)),
+              integerFormatter.format(Number(value)),
               props.dataKey === "value"
                 ? "Job postings index"
                 : "Moving average",
