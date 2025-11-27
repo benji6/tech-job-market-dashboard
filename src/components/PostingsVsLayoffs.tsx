@@ -7,9 +7,11 @@ import {
   Tooltip,
   Legend,
   ResponsiveContainer,
+  ReferenceLine,
 } from "recharts";
 import aggregatedMonthlyLayoffData from "../aggregatedMonthlyLayoffData";
 import aggregatedPostingsData from "../aggregatedPostingsData";
+import interestRatesData from "../data/boe-interest-rates.json";
 import { integerFormatter } from "../utils";
 
 const layoffsByMonth: Record<string, number> = {};
@@ -21,6 +23,11 @@ for (const { date, indexEma3 } of aggregatedMonthlyLayoffData) {
   layoffsByMonthEma[date] = indexEma3;
 }
 
+const interestRatesByDate: Record<string, number> = {};
+for (const { date, value } of interestRatesData) {
+  interestRatesByDate[date] = value;
+}
+
 const combinedData: {
   date: string;
   jobPostingsIndexed: number;
@@ -28,9 +35,11 @@ const combinedData: {
   jobPostingsEmaIndexed: number;
   layoffsEmaIndexed: number | null;
   netIndexed: number | null;
+  interestRate: number | null;
 }[] = [];
 
 let layoffsEma: number | null = null;
+let lastInterestRate = 0.75;
 
 for (let i = 0; i < aggregatedPostingsData.length; i++) {
   const item = aggregatedPostingsData[i];
@@ -41,6 +50,10 @@ for (let i = 0; i < aggregatedPostingsData.length; i++) {
 
   const netIndexed = item.ema - layoffsEma;
 
+  if (interestRatesByDate[item.date] !== undefined) {
+    lastInterestRate = interestRatesByDate[item.date];
+  }
+
   combinedData.push({
     date: item.date,
     jobPostingsIndexed: item.value,
@@ -48,16 +61,38 @@ for (let i = 0; i < aggregatedPostingsData.length; i++) {
     jobPostingsEmaIndexed: item.ema,
     layoffsEmaIndexed: layoffsEma,
     netIndexed,
+    interestRate: lastInterestRate,
   });
 }
 
 export default function PostingsVsLayoffs() {
   return (
     <>
-      <h1>Job postings vs layoffs</h1>
+      <h1>Net demand for software engineers</h1>
       <p>
         Trends are indicated with 90 day exponential moving averages, using the
         above data sources and indexed to 100 for the start of each series
+      </p>
+      <p>
+        Sources:{" "}
+        <a href="https://data.indeed.com/#/postings" target="_blank">
+          Indeed job postings
+        </a>
+        ,{" "}
+        <a href="https://layoffs.fyi" target="_blank">
+          Layoffs.fyi layoffs
+        </a>
+        {", "}
+        <a href="https://www.trueup.io/layoffs" target="_blank">
+          trueup layoffs
+        </a>
+        {", "}
+        <a
+          href="https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
+          target="_blank"
+        >
+          Bank of England interest rate
+        </a>
       </p>
       <ResponsiveContainer width="100%" height={500}>
         <ComposedChart
@@ -77,11 +112,22 @@ export default function PostingsVsLayoffs() {
             minTickGap={50}
           />
           <YAxis
+            yAxisId="left"
             label={{
               value: "Index (100 = start)",
               angle: -90,
               position: "insideLeft",
             }}
+          />
+          <YAxis
+            yAxisId="right"
+            orientation="right"
+            label={{
+              value: "Interest rate (%)",
+              angle: 90,
+              position: "insideRight",
+            }}
+            domain={[0, 6]}
           />
           <Tooltip
             labelFormatter={(date) => {
@@ -101,34 +147,49 @@ export default function PostingsVsLayoffs() {
                 label = "Layoffs";
               } else if (dataKey === "netIndexed") {
                 label = "Net (postings - layoffs)";
+              } else if (dataKey === "interestRate") {
+                return [`${value}%`, "Interest rate"];
               }
               return [integerFormatter.format(Number(value)), label];
             }}
           />
           <Legend />
           <Line
+            yAxisId="left"
             dataKey="jobPostingsEmaIndexed"
             dot={false}
             name="Job postings index (90-day exponential moving average)"
             stroke="#4ecdc4"
-            strokeDasharray="1 1"
+            opacity={1 / 3}
             strokeWidth={2}
           />
           <Line
+            yAxisId="left"
             dataKey="layoffsEmaIndexed"
             dot={false}
             name="Layoffs index (90-day exponential moving average)"
             stroke="#ff6b6b"
-            strokeDasharray="1 1"
+            opacity={1 / 3}
             strokeWidth={2}
           />
           <Line
+            yAxisId="left"
             dataKey="netIndexed"
             dot={false}
-            name="Net index (postings - layoffs)"
+            name="Net demand for software engineers (postings index - layoffs index)"
             stroke="#111"
             strokeWidth={2}
           />
+          <Line
+            yAxisId="right"
+            dataKey="interestRate"
+            dot={false}
+            name="Bank of England interest rate"
+            stroke="#f39c12"
+            strokeWidth={2}
+            type="stepAfter"
+          />
+          <ReferenceLine yAxisId="left" y={0} stroke="#111" />
         </ComposedChart>
       </ResponsiveContainer>
     </>
