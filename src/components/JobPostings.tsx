@@ -8,20 +8,8 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import jobPostingsData from "../data/job-postings-index.json";
 import { integerFormatter } from "../utils";
-
-const EMA_PERIOD = 90;
-const k = 2 / (EMA_PERIOD + 1);
-const chartData: { date: string; value: number; ema: number }[] = [];
-for (let i = 0; i < jobPostingsData.length; i++) {
-  const item = jobPostingsData[i];
-  chartData.push({
-    date: item.dateString,
-    value: item.value,
-    ema: i ? item.value * k + chartData[i - 1].ema * (1 - k) : item.value,
-  });
-}
+import aggregatedPostingsData from "../aggregatedPostingsData";
 
 export default function JobPostings() {
   return (
@@ -43,7 +31,7 @@ export default function JobPostings() {
       </p>
       <ResponsiveContainer width="100%" height={500}>
         <LineChart
-          data={chartData}
+          data={aggregatedPostingsData}
           margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
         >
           <CartesianGrid strokeDasharray="3 3" />

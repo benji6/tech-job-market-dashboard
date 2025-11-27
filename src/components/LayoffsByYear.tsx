@@ -1,5 +1,4 @@
 import {
-  ComposedChart,
   Bar,
   XAxis,
   YAxis,
@@ -8,6 +7,7 @@ import {
   Legend,
   ResponsiveContainer,
   Line,
+  LineChart,
 } from "recharts";
 import layoffsAnnualTrueupData from "../data/layoffs-annual-trueup.json";
 import layoffsMonthlyFYIData from "../data/layoffs-monthly-fyi.json";
@@ -32,7 +32,7 @@ export default function LayoffsByYear() {
     <>
       <h2>Layoffs by year</h2>
       <ResponsiveContainer width="100%" height={500}>
-        <ComposedChart
+        <LineChart
           data={annualLayoffsData}
           margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
         >
@@ -59,7 +59,7 @@ export default function LayoffsByYear() {
             strokeWidth={2}
             type="monotone"
           />
-        </ComposedChart>
+        </LineChart>
       </ResponsiveContainer>
     </>
   );
