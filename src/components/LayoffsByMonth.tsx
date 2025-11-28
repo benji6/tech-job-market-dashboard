@@ -24,7 +24,11 @@ export default function LayoffsByMonth() {
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="date" angle={-45} textAnchor="end" height={80} />
           <YAxis
-            label={{ value: "Layoffs", angle: -90, position: "insideLeft" }}
+            label={{
+              value: "Layoffs",
+              angle: -90,
+              dx: -40,
+            }}
           />
           <Tooltip
             formatter={(value, _, props) => [
@@ -43,19 +47,17 @@ export default function LayoffsByMonth() {
           <Bar dataKey="fyi" fill="#9b59b6" name="Layoffs.fyi" />
           <Line
             dataKey="ema12"
-            dot={{ fill: "#f39c12" }}
+            dot={false}
             name="12-month exponential moving average"
             stroke="#f39c12"
-            strokeDasharray="5 5"
             strokeWidth={2}
             type="monotone"
           />
           <Line
             dataKey="ema3"
-            dot={{ fill: "#4ecdc4" }}
+            dot={false}
             name="3-month exponential moving average"
             stroke="#4ecdc4"
-            strokeDasharray="5 5"
             strokeWidth={2}
             type="monotone"
           />

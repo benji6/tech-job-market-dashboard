@@ -7,7 +7,7 @@ import {
   Legend,
   ResponsiveContainer,
   Line,
-  LineChart,
+  ComposedChart,
 } from "recharts";
 import layoffsAnnualTrueupData from "../data/layoffs-annual-trueup.json";
 import layoffsMonthlyFYIData from "../data/layoffs-monthly-fyi.json";
@@ -32,14 +32,18 @@ export default function LayoffsByYear() {
     <>
       <h2>Layoffs by year</h2>
       <ResponsiveContainer width="100%" height={500}>
-        <LineChart
+        <ComposedChart
           data={annualLayoffsData}
-          margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+          margin={{ top: 5, right: 30, left: 30, bottom: 5 }}
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="period" angle={-45} textAnchor="end" height={80} />
           <YAxis
-            label={{ value: "Layoffs", angle: -90, position: "insideLeft" }}
+            label={{
+              value: "Layoffs",
+              angle: -90,
+              dx: -50,
+            }}
           />
           <Tooltip
             formatter={(value) => {
@@ -52,14 +56,13 @@ export default function LayoffsByYear() {
           <Bar dataKey="fyi" fill="#9b59b6" name="Layoffs.fyi" />
           <Line
             dataKey="average"
-            dot={{ fill: "#4ecdc4" }}
+            dot={false}
             name="Average"
             stroke="#4ecdc4"
-            strokeDasharray="5 5"
             strokeWidth={2}
             type="monotone"
           />
-        </LineChart>
+        </ComposedChart>
       </ResponsiveContainer>
     </>
   );

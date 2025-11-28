@@ -114,9 +114,9 @@ export default function PostingsVsLayoffs() {
           <YAxis
             yAxisId="left"
             label={{
-              value: "Index (100 = start)",
+              value: "Index",
               angle: -90,
-              position: "insideLeft",
+              dx: -30,
             }}
           />
           <YAxis
@@ -125,7 +125,7 @@ export default function PostingsVsLayoffs() {
             label={{
               value: "Interest rate (%)",
               angle: 90,
-              position: "insideRight",
+              dx: 10,
             }}
             domain={[0, 6]}
           />

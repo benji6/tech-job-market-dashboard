@@ -47,7 +47,11 @@ export default function JobPostings() {
             minTickGap={50}
           />
           <YAxis
-            label={{ value: "Index Value", angle: -90, position: "insideLeft" }}
+            label={{
+              value: "Index Value",
+              angle: -90,
+              dx: -30,
+            }}
           />
           <Tooltip
             labelFormatter={(date) => {
