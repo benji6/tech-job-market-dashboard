@@ -14,21 +14,7 @@ import aggregatedPostingsData from "../aggregatedPostingsData";
 export default function JobPostings() {
   return (
     <>
-      <h1>UK software development job postings index</h1>
-      <p>
-        Source:{" "}
-        <a href="https://data.indeed.com/#/postings" target="_blank">
-          Indeed
-        </a>
-      </p>
-      <p>
-        <small>
-          See also:{" "}
-          <a href="https://www.trueup.io/job-trend" target="_blank">
-            trueup
-          </a>
-        </small>
-      </p>
+      <h2>UK software development job postings index</h2>
       <ResponsiveContainer width="100%" height={500}>
         <LineChart
           data={aggregatedPostingsData}
@@ -48,7 +34,7 @@ export default function JobPostings() {
           />
           <YAxis
             label={{
-              value: "Index Value",
+              value: "Index",
               angle: -90,
               dx: -30,
             }}

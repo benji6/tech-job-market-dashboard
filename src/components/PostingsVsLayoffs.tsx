@@ -68,32 +68,7 @@ for (let i = 0; i < aggregatedPostingsData.length; i++) {
 export default function PostingsVsLayoffs() {
   return (
     <>
-      <h1>Net demand for software engineers</h1>
-      <p>
-        Trends are indicated with 90 day exponential moving averages, using the
-        above data sources and indexed to 100 for the start of each series
-      </p>
-      <p>
-        Sources:{" "}
-        <a href="https://data.indeed.com/#/postings" target="_blank">
-          Indeed job postings
-        </a>
-        ,{" "}
-        <a href="https://layoffs.fyi" target="_blank">
-          Layoffs.fyi layoffs
-        </a>
-        {", "}
-        <a href="https://www.trueup.io/layoffs" target="_blank">
-          trueup layoffs
-        </a>
-        {", "}
-        <a
-          href="https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
-          target="_blank"
-        >
-          Bank of England interest rate
-        </a>
-      </p>
+      <h2>Net demand for software engineers</h2>
       <ResponsiveContainer width="100%" height={500}>
         <ComposedChart
           data={combinedData}
@@ -192,6 +167,13 @@ export default function PostingsVsLayoffs() {
           <ReferenceLine yAxisId="left" y={0} stroke="#111" />
         </ComposedChart>
       </ResponsiveContainer>
+      <p>
+        <small>
+          Trends are indicated with 90 day exponential moving averages, using
+          all available data sources and indexed to 100 for the start of each
+          series
+        </small>
+      </p>
     </>
   );
 }
