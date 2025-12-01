@@ -1,3 +1,4 @@
+import { useState } from "react";
 import ComputerProgrammingJobs from "../ComputerProgrammingJobs";
 import ComputerScienceGraduates from "../ComputerScienceGraduates";
 import UkSweJobPostings from "../JobPostings";
@@ -9,10 +10,24 @@ import Sources from "../Sources";
 import "./index.css";
 
 export default function App() {
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
   return (
     <>
       <h1>Tech job market dashboard</h1>
-      <div className="dashboard">
+      <div className="dashboard-controls">
+        <label className="fullscreen-toggle">
+          <input
+            type="checkbox"
+            checked={isFullscreen}
+            onChange={(e) => setIsFullscreen(e.target.checked)}
+          />
+          Fullscreen charts
+        </label>
+      </div>
+      <div
+        className={`dashboard${isFullscreen ? " dashboard--fullscreen" : ""}`}
+      >
         <div>
           <UkSweJobPostings />
         </div>
