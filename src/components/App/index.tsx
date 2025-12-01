@@ -1,3 +1,4 @@
+import ComputerProgrammingJobs from "../ComputerProgrammingJobs";
 import UkSweJobPostings from "../JobPostings";
 import LayoffsByMonth from "../LayoffsByMonth";
 import LayoffsByYear from "../LayoffsByYear";
@@ -22,6 +23,9 @@ export default function App() {
         </div>
         <div>
           <PostingsVsLayoffs />
+        </div>
+        <div>
+          <ComputerProgrammingJobs />
         </div>
       </div>
       <Notes />
