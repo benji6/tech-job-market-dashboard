@@ -1,4 +1,5 @@
 import ComputerProgrammingJobs from "../ComputerProgrammingJobs";
+import ComputerScienceGraduates from "../ComputerScienceGraduates";
 import UkSweJobPostings from "../JobPostings";
 import LayoffsByMonth from "../LayoffsByMonth";
 import LayoffsByYear from "../LayoffsByYear";
@@ -26,6 +27,9 @@ export default function App() {
         </div>
         <div>
           <ComputerProgrammingJobs />
+        </div>
+        <div>
+          <ComputerScienceGraduates />
         </div>
       </div>
       <Notes />

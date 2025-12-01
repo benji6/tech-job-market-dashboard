@@ -35,6 +35,33 @@ export default function Sources() {
             Bank of England interest rate
           </a>
         </li>
+        <li>
+          <a
+            href="https://www.hesa.ac.uk/news/20-03-2025/sb271-higher-education-student-statistics/qualifications"
+            target="_blank"
+          >
+            Higher Education Student Statistics: UK, 2023/24 - Qualifications
+            achieved
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.hesa.ac.uk/news/25-01-2022/sb262-higher-education-student-statistics/qualifications"
+            target="_blank"
+          >
+            Higher Education Student Statistics: UK, 2020/21 - Qualifications
+            achieved
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.hesa.ac.uk/news/11-01-2018/sfr247-higher-education-student-statistics/qualifications"
+            target="_blank"
+          >
+            Higher Education Student Statistics: UK, 2016/17 - Qualifications
+            achieved
+          </a>
+        </li>
       </ul>
       <h3>Not used in this dashboard, but also interesting</h3>
       <ul>
