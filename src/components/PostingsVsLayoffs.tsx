@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   ComposedChart,
   Line,
@@ -66,6 +67,8 @@ for (let i = 0; i < aggregatedPostingsData.length; i++) {
 }
 
 export default function PostingsVsLayoffs() {
+  const [showInterestRate, setShowInterestRate] = useState(false);
+
   return (
     <>
       <h2>Net demand for software engineers</h2>
@@ -94,16 +97,18 @@ export default function PostingsVsLayoffs() {
               dx: -30,
             }}
           />
-          <YAxis
-            yAxisId="right"
-            orientation="right"
-            label={{
-              value: "Interest rate (%)",
-              angle: 90,
-              dx: 10,
-            }}
-            domain={[0, 6]}
-          />
+          {showInterestRate && (
+            <YAxis
+              yAxisId="right"
+              orientation="right"
+              label={{
+                value: "Interest rate (%)",
+                angle: 90,
+                dx: 10,
+              }}
+              domain={[0, 6]}
+            />
+          )}
           <Tooltip
             labelFormatter={(date) => {
               const d = new Date(date);
@@ -155,25 +160,35 @@ export default function PostingsVsLayoffs() {
             stroke="#111"
             strokeWidth={2}
           />
-          <Line
-            yAxisId="right"
-            dataKey="interestRate"
-            dot={false}
-            name="Bank of England interest rate"
-            stroke="#f39c12"
-            strokeWidth={2}
-            type="stepAfter"
-          />
+          {showInterestRate && (
+            <Line
+              yAxisId="right"
+              dataKey="interestRate"
+              dot={false}
+              name="Bank of England interest rate"
+              stroke="#f39c12"
+              strokeWidth={2}
+              type="stepAfter"
+            />
+          )}
           <ReferenceLine yAxisId="left" y={0} stroke="#111" />
         </ComposedChart>
       </ResponsiveContainer>
-      <p>
+      <label style={{ display: "block", marginBlock: "1em" }}>
+        <input
+          type="checkbox"
+          checked={showInterestRate}
+          onChange={(e) => setShowInterestRate(e.target.checked)}
+        />{" "}
+        Show Bank of England interest rate
+      </label>
+      <div>
         <small>
           Trends are indicated with 90 day exponential moving averages, using
           all available data sources and indexed to 100 for the start of each
           series
         </small>
-      </p>
+      </div>
     </>
   );
 }
