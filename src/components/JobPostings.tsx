@@ -50,9 +50,7 @@ export default function JobPostings() {
             }}
             formatter={(value, _, props) => [
               integerFormatter.format(Number(value)),
-              props.dataKey === "value"
-                ? "Job postings index"
-                : "Moving average",
+              props.dataKey === "value" ? "Job postings index" : "Trend",
             ]}
           />
           <Legend />
