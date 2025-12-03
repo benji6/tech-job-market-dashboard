@@ -101,6 +101,15 @@ export default function Sources() {
             and related services
           </a>
         </li>
+        <li>
+          <a
+            href="https://digitaleconomy.stanford.edu/wp-content/uploads/2025/11/CanariesintheCoalMine_Nov25.pdf"
+            target="_blank"
+          >
+            Canaries in the Coal Mine? Six Facts about the Recent Employment
+            Effects of Artificial Intelligence
+          </a>
+        </li>
       </ul>
     </>
   );
