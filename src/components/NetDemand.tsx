@@ -66,7 +66,7 @@ for (let i = 0; i < aggregatedPostingsData.length; i++) {
   });
 }
 
-export default function PostingsVsLayoffs() {
+export default function NetDemand() {
   const [showInterestRate, setShowInterestRate] = useState(false);
 
   return (

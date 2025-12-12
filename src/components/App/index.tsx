@@ -5,7 +5,7 @@ import UkSweJobPostings from "../JobPostings";
 import LayoffsByMonth from "../LayoffsByMonth";
 import LayoffsByYear from "../LayoffsByYear";
 import Notes from "../Notes";
-import PostingsVsLayoffs from "../PostingsVsLayoffs";
+import NetDemand from "../NetDemand";
 import RemoteShare from "../RemoteShare";
 import Sources from "../Sources";
 import "./index.css";
@@ -39,7 +39,7 @@ export default function App() {
           <LayoffsByMonth />
         </div>
         <div>
-          <PostingsVsLayoffs />
+          <NetDemand />
         </div>
         <div>
           <ComputerProgrammingJobs />
