@@ -9,6 +9,10 @@ export const defaultDict = <V>(createDefaultValue: () => V) =>
 export const integerFormatter = Intl.NumberFormat(undefined, {
   maximumFractionDigits: 0,
 });
+export const oneDecimalPlaceFormatter = Intl.NumberFormat(undefined, {
+  maximumFractionDigits: 1,
+  minimumFractionDigits: 1,
+});
 
 export const sum = (xs: number[]): number => {
   let total = 0;

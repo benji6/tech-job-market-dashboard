@@ -6,6 +6,7 @@ import LayoffsByMonth from "../LayoffsByMonth";
 import LayoffsByYear from "../LayoffsByYear";
 import Notes from "../Notes";
 import PostingsVsLayoffs from "../PostingsVsLayoffs";
+import RemoteShare from "../RemoteShare";
 import Sources from "../Sources";
 import "./index.css";
 
@@ -45,6 +46,9 @@ export default function App() {
         </div>
         <div>
           <ComputerScienceGraduates />
+        </div>
+        <div>
+          <RemoteShare />
         </div>
       </div>
       <Notes />

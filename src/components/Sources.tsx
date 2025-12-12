@@ -10,6 +10,11 @@ export default function Sources() {
           </a>
         </li>
         <li>
+          <a href="https://data.indeed.com/#/remote" target="_blank">
+            Indeed remote tracker
+          </a>
+        </li>
+        <li>
           <a href="https://layoffs.fyi" target="_blank">
             Layoffs.fyi layoffs
           </a>
