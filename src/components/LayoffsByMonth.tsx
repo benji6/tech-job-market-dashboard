@@ -37,9 +37,7 @@ export default function LayoffsByMonth() {
                 ? "trueup"
                 : props.dataKey === "fyi"
                   ? "Layoffs.fyi"
-                  : props.dataKey === "ema3"
-                    ? "3-month trend"
-                    : "12-month trend",
+                  : "12-month trend",
             ]}
           />
           <Legend />
@@ -49,14 +47,6 @@ export default function LayoffsByMonth() {
             dataKey="ema12"
             dot={false}
             name="12-month exponential moving average"
-            stroke="#f39c12"
-            strokeWidth={2}
-            type="monotone"
-          />
-          <Line
-            dataKey="ema3"
-            dot={false}
-            name="3-month exponential moving average"
             stroke="#4ecdc4"
             strokeWidth={2}
             type="monotone"

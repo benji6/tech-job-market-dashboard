@@ -16,8 +16,8 @@ export default function Notes() {
           although it can give insight into trends
         </li>
         <li>
-          Latest layoff data is not complete yet so the last period is likely
-          understated (except the trueup annual 2025 data which is a projection)
+          There is a lag between layoffs being reported and appearing in the
+          data, so the latest periods are likely understated.
         </li>
         <li>
           Where trueup data is available it is normalized to match the
