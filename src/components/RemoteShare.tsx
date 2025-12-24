@@ -55,8 +55,10 @@ export default function RemoteShare() {
                 year: "numeric",
               });
             }}
-            formatter={(value: number) => [
-              `${oneDecimalPlaceFormatter.format(value)}%`,
+            formatter={(value?: number) => [
+              value === undefined
+                ? undefined
+                : `${oneDecimalPlaceFormatter.format(value)}%`,
               "Remote share",
             ]}
           />

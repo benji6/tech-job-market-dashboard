@@ -7,7 +7,7 @@
     "start": "vite --open",
     "build": "tsc -b && vite build",
     "fmt": "eslint --fix && prettier -u --write '**/*'",
-    "test": "prettier --check -u '**/*' && tsc --noEmit && eslint",
+    "test": "prettier --check -u '**/*' && tsc -b --noEmit && eslint",
     "preview": "vite preview"
   },
   "dependencies": {
