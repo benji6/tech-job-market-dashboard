@@ -71,6 +71,14 @@ export default function Sources() {
       <h3>Not used in this dashboard, but also interesting</h3>
       <ul>
         <li>
+          <a
+            href="https://www.leethub.io/blog/tech-jobs-wrapped-2025"
+            target="_blank"
+          >
+            Leethub: Tech Jobs Wrapped 2025
+          </a>
+        </li>
+        <li>
           <a href="https://www.trueup.io/job-trend" target="_blank">
             trueup job trend
           </a>
