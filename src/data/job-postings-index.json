@@ -1307,7 +1307,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 50.73
+    "value": 50.74
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -1317,7 +1317,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 50.96
+    "value": 50.97
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -1327,7 +1327,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 51.01
+    "value": 51.02
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -1337,7 +1337,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 51.02
+    "value": 51.03
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -1347,7 +1347,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 51.11
+    "value": 51.12
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -1357,7 +1357,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 51.24
+    "value": 51.25
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -1367,7 +1367,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 51.35
+    "value": 51.36
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -1377,7 +1377,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 51.54
+    "value": 51.55
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4087,7 +4087,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 97.64
+    "value": 97.63
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4107,7 +4107,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 97.95
+    "value": 97.94
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4117,7 +4117,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 98.03
+    "value": 98.02
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4137,7 +4137,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 98.34
+    "value": 98.33
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4147,7 +4147,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 98.52
+    "value": 98.51
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4157,7 +4157,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 98.73
+    "value": 98.72
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4167,7 +4167,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 98.95
+    "value": 98.94
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4177,7 +4177,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 99.25
+    "value": 99.24
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4187,7 +4187,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 99.66
+    "value": 99.65
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4197,7 +4197,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 100.44
+    "value": 100.43
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4207,7 +4207,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 101.3
+    "value": 101.29
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4217,7 +4217,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 102
+    "value": 101.99
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4227,7 +4227,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 102.84
+    "value": 102.82
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4237,7 +4237,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 103.65
+    "value": 103.64
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4247,7 +4247,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.35
+    "value": 104.33
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4257,7 +4257,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.75
+    "value": 104.74
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4267,7 +4267,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.79
+    "value": 104.78
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4277,7 +4277,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.56
+    "value": 104.54
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4287,7 +4287,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.55
+    "value": 104.54
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4297,7 +4297,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.48
+    "value": 104.47
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4307,7 +4307,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.29
+    "value": 104.27
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4317,7 +4317,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.11
+    "value": 104.09
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4327,7 +4327,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.09
+    "value": 104.07
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4337,7 +4337,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.04
+    "value": 104.03
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4347,7 +4347,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 103.93
+    "value": 103.92
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4357,7 +4357,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.07
+    "value": 104.06
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4367,7 +4367,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.25
+    "value": 104.23
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4377,7 +4377,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.48
+    "value": 104.47
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4387,7 +4387,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.77
+    "value": 104.76
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4397,7 +4397,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 105.22
+    "value": 105.21
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4407,7 +4407,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 105.63
+    "value": 105.62
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4437,7 +4437,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 106.68
+    "value": 106.69
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4467,7 +4467,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 107.7
+    "value": 107.71
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4477,7 +4477,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 108.15
+    "value": 108.16
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4487,7 +4487,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 108.65
+    "value": 108.66
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4497,7 +4497,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 109.22
+    "value": 109.23
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4507,7 +4507,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 109.75
+    "value": 109.76
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4527,7 +4527,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 110.67
+    "value": 110.68
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4617,7 +4617,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 111.38
+    "value": 111.37
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4647,7 +4647,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 113.19
+    "value": 113.18
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4657,7 +4657,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 113.79
+    "value": 113.78
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4677,7 +4677,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 114.87
+    "value": 114.86
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4697,7 +4697,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 115.84
+    "value": 115.83
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4707,7 +4707,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 116.04
+    "value": 116.02
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4717,7 +4717,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 116.42
+    "value": 116.4
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4727,7 +4727,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 116.53
+    "value": 116.52
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4737,7 +4737,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 116.59
+    "value": 116.58
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4747,7 +4747,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 116.85
+    "value": 116.84
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4757,7 +4757,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 117.05
+    "value": 117.04
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4787,7 +4787,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 117.03
+    "value": 117.02
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4857,7 +4857,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.7
+    "value": 119.69
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4867,7 +4867,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.57
+    "value": 119.56
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4887,7 +4887,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.19
+    "value": 119.18
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4897,7 +4897,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.06
+    "value": 119.04
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4907,7 +4907,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.06
+    "value": 119.05
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4917,7 +4917,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 118.99
+    "value": 118.98
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4927,7 +4927,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 118.93
+    "value": 118.92
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4937,7 +4937,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.37
+    "value": 119.36
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4947,7 +4947,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.96
+    "value": 119.95
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4957,7 +4957,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 120.44
+    "value": 120.43
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4967,7 +4967,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 120.88
+    "value": 120.87
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4977,7 +4977,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 120.99
+    "value": 120.98
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4987,7 +4987,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 121.51
+    "value": 121.5
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -4997,7 +4997,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 122.07
+    "value": 122.06
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5017,7 +5017,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 123.21
+    "value": 123.2
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5027,7 +5027,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 123.73
+    "value": 123.72
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5047,7 +5047,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 125.13
+    "value": 125.12
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5057,7 +5057,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 125.6
+    "value": 125.59
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5087,7 +5087,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 126.09
+    "value": 126.08
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5097,7 +5097,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 126.17
+    "value": 126.16
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5107,7 +5107,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 126.16
+    "value": 126.15
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5117,7 +5117,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 126.41
+    "value": 126.4
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5127,7 +5127,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 126.45
+    "value": 126.44
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5157,7 +5157,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 127.13
+    "value": 127.12
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5167,7 +5167,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 127.19
+    "value": 127.18
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5187,7 +5187,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 127.47
+    "value": 127.46
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5207,7 +5207,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 127.83
+    "value": 127.82
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5217,7 +5217,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 128.05
+    "value": 128.04
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5237,7 +5237,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 128.96
+    "value": 128.95
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5247,7 +5247,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 129.25
+    "value": 129.24
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5267,7 +5267,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 129.45
+    "value": 129.44
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5307,7 +5307,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 129.6
+    "value": 129.59
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5317,7 +5317,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 129.72
+    "value": 129.71
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5357,7 +5357,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 130.64
+    "value": 130.63
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5377,7 +5377,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 131.18
+    "value": 131.17
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5547,7 +5547,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 133.46
+    "value": 133.45
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5557,7 +5557,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 133.85
+    "value": 133.84
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5567,7 +5567,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 134.28
+    "value": 134.27
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5577,7 +5577,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 134.8
+    "value": 134.79
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5587,7 +5587,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 135.17
+    "value": 135.16
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5597,7 +5597,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 135.48
+    "value": 135.47
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5607,7 +5607,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 136.06
+    "value": 136.05
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5617,7 +5617,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 136.45
+    "value": 136.44
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5627,7 +5627,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 136.89
+    "value": 136.88
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5637,7 +5637,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 137.16
+    "value": 137.15
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5647,7 +5647,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 137.23
+    "value": 137.22
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5657,7 +5657,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 137.51
+    "value": 137.5
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5667,7 +5667,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 137.76
+    "value": 137.75
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5677,7 +5677,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 138.1
+    "value": 138.09
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5687,7 +5687,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 138.44
+    "value": 138.43
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5697,7 +5697,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 138.59
+    "value": 138.58
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5707,7 +5707,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 138.83
+    "value": 138.82
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5717,7 +5717,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 139.22
+    "value": 139.21
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5727,7 +5727,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 139.44
+    "value": 139.43
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5737,7 +5737,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 139.63
+    "value": 139.62
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5747,7 +5747,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 139.7
+    "value": 139.69
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5757,7 +5757,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 139.77
+    "value": 139.76
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5767,7 +5767,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 140.03
+    "value": 140.02
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5777,7 +5777,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 139.98
+    "value": 139.97
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5787,7 +5787,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 139.63
+    "value": 139.62
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5797,7 +5797,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 139.28
+    "value": 139.27
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5807,7 +5807,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 139
+    "value": 138.99
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5817,7 +5817,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 138.31
+    "value": 138.3
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5827,7 +5827,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 138.13
+    "value": 138.12
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5837,7 +5837,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 137.76
+    "value": 137.75
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5847,7 +5847,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 137.77
+    "value": 137.76
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5857,7 +5857,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 138.16
+    "value": 138.15
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5867,7 +5867,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 138.45
+    "value": 138.44
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5877,7 +5877,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 138.77
+    "value": 138.76
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5887,7 +5887,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 139.58
+    "value": 139.57
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5897,7 +5897,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 139.84
+    "value": 139.83
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5907,7 +5907,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 140.26
+    "value": 140.25
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5917,7 +5917,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 140.64
+    "value": 140.63
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5927,7 +5927,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 140.97
+    "value": 140.96
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5937,7 +5937,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 141.26
+    "value": 141.25
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5947,7 +5947,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 141.56
+    "value": 141.55
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5957,7 +5957,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 141.73
+    "value": 141.71
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5967,7 +5967,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 141.95
+    "value": 141.94
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5977,7 +5977,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 142.17
+    "value": 142.16
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5987,7 +5987,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 142.32
+    "value": 142.31
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -5997,7 +5997,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 142.41
+    "value": 142.4
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6007,7 +6007,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 142.58
+    "value": 142.56
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6017,7 +6017,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 142.78
+    "value": 142.76
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6027,7 +6027,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 142.86
+    "value": 142.84
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6037,7 +6037,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 143.02
+    "value": 143
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6047,7 +6047,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 143.06
+    "value": 143.05
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6057,7 +6057,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 143.38
+    "value": 143.36
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6067,7 +6067,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 143.7
+    "value": 143.68
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6077,7 +6077,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 143.99
+    "value": 143.98
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6087,7 +6087,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 143.98
+    "value": 143.97
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6097,7 +6097,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 144.37
+    "value": 144.36
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6107,7 +6107,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 144.54
+    "value": 144.53
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6117,7 +6117,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 144.85
+    "value": 144.83
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6127,7 +6127,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 144.9
+    "value": 144.89
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6137,7 +6137,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 145.04
+    "value": 145.03
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6147,7 +6147,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 145.4
+    "value": 145.39
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6157,7 +6157,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 146.13
+    "value": 146.12
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6167,7 +6167,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 146.86
+    "value": 146.85
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6177,7 +6177,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 147.68
+    "value": 147.66
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6187,7 +6187,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 148.36
+    "value": 148.35
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6197,7 +6197,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 149.02
+    "value": 149.01
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6207,7 +6207,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 149.57
+    "value": 149.56
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6217,7 +6217,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 149.92
+    "value": 149.91
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6227,7 +6227,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 150.13
+    "value": 150.12
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6237,7 +6237,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 149.81
+    "value": 149.79
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6247,7 +6247,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 149.93
+    "value": 149.92
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6257,7 +6257,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 150.06
+    "value": 150.05
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6267,7 +6267,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 150.26
+    "value": 150.25
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6277,7 +6277,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 150.55
+    "value": 150.54
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6287,7 +6287,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 150.77
+    "value": 150.76
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6297,7 +6297,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 150.87
+    "value": 150.86
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6307,7 +6307,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 151.37
+    "value": 151.36
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6317,7 +6317,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 151.45
+    "value": 151.43
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6327,7 +6327,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 151.52
+    "value": 151.5
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6337,7 +6337,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 151.64
+    "value": 151.62
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6347,7 +6347,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 151.66
+    "value": 151.65
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6357,7 +6357,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 151.61
+    "value": 151.59
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6367,7 +6367,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 151.78
+    "value": 151.76
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6377,7 +6377,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 152.04
+    "value": 152.03
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6387,7 +6387,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 152.18
+    "value": 152.16
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6397,7 +6397,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 152.15
+    "value": 152.13
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6407,7 +6407,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 152.12
+    "value": 152.1
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6417,7 +6417,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 152.07
+    "value": 152.05
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6427,7 +6427,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 152.24
+    "value": 152.22
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6437,7 +6437,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 152.34
+    "value": 152.32
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6447,7 +6447,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 152.37
+    "value": 152.35
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6457,7 +6457,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 152.53
+    "value": 152.51
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6467,7 +6467,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 152.88
+    "value": 152.86
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6477,7 +6477,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 153.27
+    "value": 153.25
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6487,7 +6487,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 153.65
+    "value": 153.63
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6497,7 +6497,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 154.03
+    "value": 154.02
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6507,7 +6507,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 154.16
+    "value": 154.15
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6517,7 +6517,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 154.18
+    "value": 154.16
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6527,7 +6527,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 154.45
+    "value": 154.43
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6537,7 +6537,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 154.62
+    "value": 154.61
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6547,7 +6547,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 154.82
+    "value": 154.81
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6557,7 +6557,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 154.91
+    "value": 154.9
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6567,7 +6567,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155
+    "value": 154.98
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6577,7 +6577,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.21
+    "value": 155.19
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6587,7 +6587,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.06
+    "value": 155.04
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6597,7 +6597,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.08
+    "value": 155.06
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6607,7 +6607,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.14
+    "value": 155.12
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6617,7 +6617,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.11
+    "value": 155.09
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6627,7 +6627,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.3
+    "value": 155.28
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6637,7 +6637,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.44
+    "value": 155.43
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6647,7 +6647,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.54
+    "value": 155.53
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6657,7 +6657,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.95
+    "value": 155.94
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6667,7 +6667,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.81
+    "value": 155.79
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6677,7 +6677,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.77
+    "value": 155.76
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6687,7 +6687,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.73
+    "value": 155.72
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6697,7 +6697,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.36
+    "value": 155.35
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6707,7 +6707,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 154.96
+    "value": 154.95
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6717,7 +6717,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 154.74
+    "value": 154.73
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6727,7 +6727,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 154.63
+    "value": 154.62
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6737,7 +6737,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 154.64
+    "value": 154.63
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6747,7 +6747,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 154.59
+    "value": 154.57
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6757,7 +6757,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 154.59
+    "value": 154.58
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6767,7 +6767,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 154.86
+    "value": 154.85
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6777,7 +6777,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.14
+    "value": 155.12
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6787,7 +6787,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.27
+    "value": 155.25
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6797,7 +6797,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 154.9
+    "value": 154.88
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6807,7 +6807,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.1
+    "value": 155.08
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6817,7 +6817,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.34
+    "value": 155.32
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6827,7 +6827,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.4
+    "value": 155.38
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6837,7 +6837,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.56
+    "value": 155.54
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6847,7 +6847,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.71
+    "value": 155.69
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6857,7 +6857,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 156.07
+    "value": 156.05
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6867,7 +6867,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 156.94
+    "value": 156.92
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6877,7 +6877,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 157.2
+    "value": 157.18
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6887,7 +6887,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 157.43
+    "value": 157.42
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6897,7 +6897,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 157.72
+    "value": 157.71
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6907,7 +6907,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 157.97
+    "value": 157.96
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6917,7 +6917,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 158.32
+    "value": 158.31
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6927,7 +6927,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 158.66
+    "value": 158.64
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6937,7 +6937,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 158.99
+    "value": 158.98
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6947,7 +6947,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 159.32
+    "value": 159.31
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6957,7 +6957,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 159.82
+    "value": 159.8
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6967,7 +6967,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 160.22
+    "value": 160.2
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6977,7 +6977,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 160.47
+    "value": 160.46
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6987,7 +6987,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 160.49
+    "value": 160.48
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -6997,7 +6997,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 160.26
+    "value": 160.25
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7007,7 +7007,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 159.56
+    "value": 159.55
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7017,7 +7017,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 158.83
+    "value": 158.82
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7027,7 +7027,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 157.94
+    "value": 157.93
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7037,7 +7037,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 157.06
+    "value": 157.05
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7047,7 +7047,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 156.49
+    "value": 156.48
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7057,7 +7057,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.93
+    "value": 155.91
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7067,7 +7067,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.67
+    "value": 155.66
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7077,7 +7077,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.72
+    "value": 155.71
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7087,7 +7087,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 155.99
+    "value": 155.98
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7097,7 +7097,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 156.26
+    "value": 156.25
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7107,7 +7107,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 156.75
+    "value": 156.74
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7117,7 +7117,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 157.07
+    "value": 157.06
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7127,7 +7127,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 157.66
+    "value": 157.65
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7137,7 +7137,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 157.98
+    "value": 157.97
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7147,7 +7147,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 158.69
+    "value": 158.68
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7157,7 +7157,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 159.36
+    "value": 159.35
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7167,7 +7167,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 159.98
+    "value": 159.97
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7177,7 +7177,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 160.59
+    "value": 160.58
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7187,7 +7187,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 161.26
+    "value": 161.25
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7197,7 +7197,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 161.9
+    "value": 161.88
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7207,7 +7207,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 162.58
+    "value": 162.56
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7217,7 +7217,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 162.77
+    "value": 162.75
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7227,7 +7227,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 163.13
+    "value": 163.11
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7237,7 +7237,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 163.45
+    "value": 163.43
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7247,7 +7247,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 163.78
+    "value": 163.77
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7257,7 +7257,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 163.98
+    "value": 163.97
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7267,7 +7267,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 164.07
+    "value": 164.06
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7277,7 +7277,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 164.22
+    "value": 164.21
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7287,7 +7287,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 165.01
+    "value": 165
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7297,7 +7297,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 165.6
+    "value": 165.59
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7307,7 +7307,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 166.2
+    "value": 166.19
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7317,7 +7317,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 166.56
+    "value": 166.55
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7327,7 +7327,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 167
+    "value": 166.99
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7337,7 +7337,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 167.58
+    "value": 167.57
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7347,7 +7347,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 168.15
+    "value": 168.14
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7357,7 +7357,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 168.47
+    "value": 168.46
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7367,7 +7367,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 168.67
+    "value": 168.66
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7377,7 +7377,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 168.95
+    "value": 168.94
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7387,7 +7387,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 169.41
+    "value": 169.4
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7397,7 +7397,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 169.96
+    "value": 169.95
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7407,7 +7407,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 170.33
+    "value": 170.32
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7417,7 +7417,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 170.85
+    "value": 170.84
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7427,7 +7427,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 171.42
+    "value": 171.41
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7437,7 +7437,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 171.94
+    "value": 171.93
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7447,7 +7447,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 172.35
+    "value": 172.34
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7457,7 +7457,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 172.86
+    "value": 172.85
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7467,7 +7467,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.18
+    "value": 173.17
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7477,7 +7477,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.7
+    "value": 173.68
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7487,7 +7487,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.81
+    "value": 173.8
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7497,7 +7497,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.45
+    "value": 173.43
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7507,7 +7507,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.54
+    "value": 173.53
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7517,7 +7517,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.83
+    "value": 173.82
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7527,7 +7527,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.97
+    "value": 173.96
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7537,7 +7537,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.09
+    "value": 174.08
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7547,7 +7547,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.15
+    "value": 174.14
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7557,7 +7557,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.42
+    "value": 174.41
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7567,7 +7567,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.98
+    "value": 174.97
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7577,7 +7577,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.06
+    "value": 175.04
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7587,7 +7587,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.97
+    "value": 174.96
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7597,7 +7597,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.83
+    "value": 174.82
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7607,7 +7607,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.61
+    "value": 174.6
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7617,7 +7617,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.31
+    "value": 174.29
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7627,7 +7627,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.96
+    "value": 173.95
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7637,7 +7637,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.61
+    "value": 173.6
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7647,7 +7647,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.55
+    "value": 173.53
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7657,7 +7657,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.54
+    "value": 173.52
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7667,7 +7667,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.62
+    "value": 173.61
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7677,7 +7677,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.93
+    "value": 173.91
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7687,7 +7687,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.15
+    "value": 174.14
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7697,7 +7697,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.49
+    "value": 174.48
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7707,7 +7707,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.71
+    "value": 174.7
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7717,7 +7717,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.87
+    "value": 174.86
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7727,7 +7727,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.87
+    "value": 174.86
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7737,7 +7737,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.88
+    "value": 174.87
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7747,7 +7747,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.85
+    "value": 174.84
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7757,7 +7757,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.99
+    "value": 174.97
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7767,7 +7767,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.13
+    "value": 175.12
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7777,7 +7777,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.39
+    "value": 175.38
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7787,7 +7787,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.55
+    "value": 175.54
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7797,7 +7797,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.04
+    "value": 176.03
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7807,7 +7807,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.46
+    "value": 176.45
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7817,7 +7817,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 177.02
+    "value": 177.01
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7827,7 +7827,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 177.65
+    "value": 177.63
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7837,7 +7837,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 178.24
+    "value": 178.23
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7847,7 +7847,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 178.88
+    "value": 178.87
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7857,7 +7857,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 179.59
+    "value": 179.58
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7867,7 +7867,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 179.96
+    "value": 179.95
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7877,7 +7877,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 180.41
+    "value": 180.4
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7887,7 +7887,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 180.8
+    "value": 180.78
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7897,7 +7897,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 180.99
+    "value": 180.98
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7907,7 +7907,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 180.7
+    "value": 180.69
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7917,7 +7917,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 180.58
+    "value": 180.57
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7927,7 +7927,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 180.35
+    "value": 180.34
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7937,7 +7937,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 180.3
+    "value": 180.29
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7947,7 +7947,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 180.25
+    "value": 180.24
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7957,7 +7957,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 180.12
+    "value": 180.11
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7967,7 +7967,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 179.96
+    "value": 179.95
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7977,7 +7977,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 180.31
+    "value": 180.3
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7987,7 +7987,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 180
+    "value": 179.99
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -7997,7 +7997,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 179.29
+    "value": 179.28
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8007,7 +8007,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 178.19
+    "value": 178.18
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8017,7 +8017,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 177.18
+    "value": 177.17
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8027,7 +8027,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.27
+    "value": 176.25
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8037,7 +8037,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.5
+    "value": 175.49
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8047,7 +8047,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.81
+    "value": 174.8
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8057,7 +8057,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.66
+    "value": 174.65
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8067,7 +8067,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.78
+    "value": 174.76
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8077,7 +8077,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.24
+    "value": 175.22
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8087,7 +8087,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.36
+    "value": 175.35
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8097,7 +8097,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.31
+    "value": 175.3
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8107,7 +8107,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.2
+    "value": 175.19
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8117,7 +8117,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.03
+    "value": 175.02
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8127,7 +8127,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.11
+    "value": 175.1
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8137,7 +8137,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.17
+    "value": 175.16
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8147,7 +8147,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.02
+    "value": 175.01
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8157,7 +8157,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.22
+    "value": 175.21
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8167,7 +8167,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.38
+    "value": 173.37
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8177,7 +8177,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.7
+    "value": 173.69
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8187,7 +8187,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.91
+    "value": 173.9
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8197,7 +8197,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.01
+    "value": 174
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8207,7 +8207,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.93
+    "value": 173.92
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8217,7 +8217,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.14
+    "value": 174.13
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8227,7 +8227,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.05
+    "value": 174.04
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8237,7 +8237,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.14
+    "value": 176.13
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8247,7 +8247,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.9
+    "value": 175.89
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8257,7 +8257,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.78
+    "value": 175.77
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8267,7 +8267,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.45
+    "value": 175.44
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8277,7 +8277,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.58
+    "value": 175.57
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8287,7 +8287,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.63
+    "value": 175.62
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8297,7 +8297,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.8
+    "value": 175.79
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8307,7 +8307,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.95
+    "value": 175.94
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8317,7 +8317,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.12
+    "value": 176.11
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8327,7 +8327,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.12
+    "value": 176.11
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8337,7 +8337,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.27
+    "value": 176.26
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8347,7 +8347,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.19
+    "value": 176.18
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8357,7 +8357,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.12
+    "value": 176.11
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8367,7 +8367,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.14
+    "value": 176.13
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8377,7 +8377,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.1
+    "value": 176.09
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8387,7 +8387,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.12
+    "value": 176.11
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8397,7 +8397,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.3
+    "value": 176.29
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8407,7 +8407,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.96
+    "value": 175.95
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8417,7 +8417,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.12
+    "value": 176.11
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8427,7 +8427,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.29
+    "value": 176.28
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8437,7 +8437,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.35
+    "value": 176.34
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8447,7 +8447,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.35
+    "value": 176.34
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8457,7 +8457,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.44
+    "value": 176.43
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8467,7 +8467,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.41
+    "value": 176.4
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8477,7 +8477,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.91
+    "value": 176.9
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8487,7 +8487,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.86
+    "value": 176.84
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8497,7 +8497,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.79
+    "value": 176.78
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8507,7 +8507,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.78
+    "value": 176.76
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8517,7 +8517,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.57
+    "value": 176.56
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8527,7 +8527,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 176.24
+    "value": 176.23
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8537,7 +8537,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.81
+    "value": 175.79
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8547,7 +8547,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 175.15
+    "value": 175.14
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8557,7 +8557,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 174.55
+    "value": 174.54
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8567,7 +8567,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.91
+    "value": 173.9
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8577,7 +8577,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 173.22
+    "value": 173.21
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8587,7 +8587,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 172.77
+    "value": 172.76
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8597,7 +8597,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 172.36
+    "value": 172.34
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8607,7 +8607,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 172.16
+    "value": 172.14
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8617,7 +8617,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 172.18
+    "value": 172.17
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8627,7 +8627,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 171.89
+    "value": 171.88
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8637,7 +8637,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 171.7
+    "value": 171.69
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8647,7 +8647,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 171.65
+    "value": 171.64
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8657,7 +8657,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 171.44
+    "value": 171.43
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8667,7 +8667,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 171.15
+    "value": 171.14
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8677,7 +8677,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 170.95
+    "value": 170.94
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8687,7 +8687,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 170.45
+    "value": 170.44
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8697,7 +8697,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 170.48
+    "value": 170.47
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8707,7 +8707,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 170.44
+    "value": 170.43
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8717,7 +8717,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 170.18
+    "value": 170.17
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8727,7 +8727,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 170.07
+    "value": 170.06
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8737,7 +8737,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 170.08
+    "value": 170.07
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8747,7 +8747,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 169.96
+    "value": 169.95
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8757,7 +8757,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 169.81
+    "value": 169.8
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -8777,7 +8777,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 169.54
+    "value": 169.53
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -9877,7 +9877,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 145.17
+    "value": 145.16
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -9887,7 +9887,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 145.01
+    "value": 145
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -9907,7 +9907,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 144.85
+    "value": 144.84
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -9927,7 +9927,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 144.49
+    "value": 144.48
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -9937,7 +9937,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 144.26
+    "value": 144.25
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -9957,7 +9957,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 143.37
+    "value": 143.36
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -9967,7 +9967,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 143.1
+    "value": 143.09
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -9977,7 +9977,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 142.66
+    "value": 142.65
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -9997,7 +9997,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 142.26
+    "value": 142.25
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10007,7 +10007,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 142.02
+    "value": 142.01
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10017,7 +10017,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 142.32
+    "value": 142.31
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10027,7 +10027,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 141.74
+    "value": 141.73
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10037,7 +10037,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 141.37
+    "value": 141.36
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10067,7 +10067,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 139.97
+    "value": 139.96
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10077,7 +10077,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 139.6
+    "value": 139.59
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10087,7 +10087,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 139.32
+    "value": 139.31
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10107,7 +10107,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 138.93
+    "value": 138.92
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10117,7 +10117,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 138.94
+    "value": 138.93
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10127,7 +10127,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 138.75
+    "value": 138.74
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10137,7 +10137,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 138.46
+    "value": 138.45
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10157,7 +10157,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 137.63
+    "value": 137.62
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10167,7 +10167,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 137.3
+    "value": 137.29
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10177,7 +10177,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 136.89
+    "value": 136.88
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10187,7 +10187,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 136.42
+    "value": 136.41
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10197,7 +10197,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 136.04
+    "value": 136.03
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10217,7 +10217,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 135.45
+    "value": 135.44
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10227,7 +10227,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 135.29
+    "value": 135.28
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10237,7 +10237,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 135.11
+    "value": 135.1
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10257,7 +10257,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 134.81
+    "value": 134.8
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10267,7 +10267,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 134.61
+    "value": 134.6
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10277,7 +10277,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 134.34
+    "value": 134.33
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10297,7 +10297,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 133.72
+    "value": 133.71
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10317,7 +10317,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 132.91
+    "value": 132.9
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10367,7 +10367,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 129.68
+    "value": 129.67
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10377,7 +10377,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 128.85
+    "value": 128.84
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10387,7 +10387,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 128.04
+    "value": 128.03
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10397,7 +10397,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 127.4
+    "value": 127.39
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10407,7 +10407,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 126.65
+    "value": 126.64
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10417,7 +10417,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 126.1
+    "value": 126.09
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10427,7 +10427,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 125.68
+    "value": 125.67
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10437,7 +10437,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 125.29
+    "value": 125.28
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10447,7 +10447,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 124.86
+    "value": 124.85
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10457,7 +10457,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 124.5
+    "value": 124.48
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10467,7 +10467,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 124.25
+    "value": 124.23
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10477,7 +10477,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 123.85
+    "value": 123.84
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10487,7 +10487,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 123.49
+    "value": 123.48
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10497,7 +10497,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 122.93
+    "value": 122.92
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10507,7 +10507,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 122.4
+    "value": 122.39
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10517,7 +10517,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 122.01
+    "value": 122
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10527,7 +10527,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 121.67
+    "value": 121.66
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10537,7 +10537,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 121.28
+    "value": 121.26
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10547,7 +10547,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 121.13
+    "value": 121.12
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10557,7 +10557,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 121.13
+    "value": 121.11
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10567,7 +10567,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 121.25
+    "value": 121.24
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10577,7 +10577,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 121.67
+    "value": 121.65
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10587,7 +10587,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 121.86
+    "value": 121.85
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10597,7 +10597,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 122.16
+    "value": 122.15
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10607,7 +10607,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 122.4
+    "value": 122.38
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10617,7 +10617,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 122.38
+    "value": 122.36
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10627,7 +10627,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 122.16
+    "value": 122.15
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10637,7 +10637,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 121.85
+    "value": 121.83
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10647,7 +10647,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 121.3
+    "value": 121.28
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10657,7 +10657,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 120.73
+    "value": 120.72
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10667,7 +10667,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.95
+    "value": 119.94
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10677,7 +10677,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.22
+    "value": 119.2
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10687,7 +10687,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 118.58
+    "value": 118.56
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10697,7 +10697,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 118.03
+    "value": 118.01
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10707,7 +10707,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 117.66
+    "value": 117.65
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10717,7 +10717,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 117.37
+    "value": 117.35
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10727,7 +10727,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 117.25
+    "value": 117.23
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10737,7 +10737,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 117.06
+    "value": 117.04
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10747,7 +10747,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 116.93
+    "value": 116.92
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10757,7 +10757,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 116.99
+    "value": 116.98
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10767,7 +10767,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 117.28
+    "value": 117.27
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10777,7 +10777,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 117.57
+    "value": 117.56
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10787,7 +10787,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 117.78
+    "value": 117.77
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10797,7 +10797,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 118.12
+    "value": 118.11
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10807,7 +10807,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 118.54
+    "value": 118.53
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10817,7 +10817,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.2
+    "value": 119.19
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10827,7 +10827,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.68
+    "value": 119.67
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10837,7 +10837,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.79
+    "value": 119.77
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10847,7 +10847,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.87
+    "value": 119.86
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10857,7 +10857,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.9
+    "value": 119.89
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10867,7 +10867,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.73
+    "value": 119.72
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10877,7 +10877,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.29
+    "value": 119.28
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10907,7 +10907,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 118.7
+    "value": 118.69
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10917,7 +10917,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 118.6
+    "value": 118.59
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10927,7 +10927,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 118.8
+    "value": 118.79
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10937,7 +10937,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 118.89
+    "value": 118.88
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10947,7 +10947,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.24
+    "value": 119.22
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10957,7 +10957,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 119.19
+    "value": 119.18
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10967,7 +10967,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 118.92
+    "value": 118.9
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10977,7 +10977,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 118.53
+    "value": 118.52
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10987,7 +10987,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 118.16
+    "value": 118.15
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -10997,7 +10997,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 117.84
+    "value": 117.83
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11007,7 +11007,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 117.49
+    "value": 117.48
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11017,7 +11017,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 117.19
+    "value": 117.18
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11057,7 +11057,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 116.51
+    "value": 116.5
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11077,7 +11077,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 116
+    "value": 115.99
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11087,7 +11087,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 115.75
+    "value": 115.74
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11107,7 +11107,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 115.15
+    "value": 115.14
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11117,7 +11117,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 114.76
+    "value": 114.75
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11127,7 +11127,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 114.26
+    "value": 114.25
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11137,7 +11137,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 113.07
+    "value": 113.06
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11147,7 +11147,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 112.58
+    "value": 112.57
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11157,7 +11157,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 112.09
+    "value": 112.08
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11167,7 +11167,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 111.64
+    "value": 111.63
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11177,7 +11177,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 111.31
+    "value": 111.3
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11187,7 +11187,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 111.1
+    "value": 111.09
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11197,7 +11197,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 110.86
+    "value": 110.85
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11207,7 +11207,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 111.3
+    "value": 111.29
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11217,7 +11217,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 111.06
+    "value": 111.05
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11227,7 +11227,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 110.81
+    "value": 110.8
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11237,7 +11237,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 110.53
+    "value": 110.52
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11247,7 +11247,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 110.03
+    "value": 110.02
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11257,7 +11257,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 109.45
+    "value": 109.44
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11267,7 +11267,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 108.87
+    "value": 108.86
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11277,7 +11277,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 108.18
+    "value": 108.16
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11287,7 +11287,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 107.82
+    "value": 107.81
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11297,7 +11297,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 107.48
+    "value": 107.47
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11307,7 +11307,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 107.11
+    "value": 107.09
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11317,7 +11317,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 106.9
+    "value": 106.88
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11327,7 +11327,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 106.82
+    "value": 106.8
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11337,7 +11337,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 107.12
+    "value": 107.11
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11347,7 +11347,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 107.62
+    "value": 107.61
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11357,7 +11357,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 107.73
+    "value": 107.72
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11367,7 +11367,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 107.85
+    "value": 107.84
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11377,7 +11377,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 107.93
+    "value": 107.92
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11387,7 +11387,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 108.04
+    "value": 108.03
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11397,7 +11397,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 108.11
+    "value": 108.1
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11407,7 +11407,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 107.96
+    "value": 107.95
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11417,7 +11417,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 107.84
+    "value": 107.83
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11427,7 +11427,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 107.75
+    "value": 107.74
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11437,7 +11437,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 107.64
+    "value": 107.63
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11447,7 +11447,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 107.6
+    "value": 107.59
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11457,7 +11457,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 107.42
+    "value": 107.41
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11467,7 +11467,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 107.27
+    "value": 107.26
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11477,7 +11477,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 107.16
+    "value": 107.15
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11487,7 +11487,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 106.8
+    "value": 106.79
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11497,7 +11497,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 106.62
+    "value": 106.61
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11507,7 +11507,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 106.3
+    "value": 106.28
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11517,7 +11517,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 106.04
+    "value": 106.03
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11527,7 +11527,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 105.81
+    "value": 105.79
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11537,7 +11537,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 105.53
+    "value": 105.52
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11547,7 +11547,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 105.32
+    "value": 105.31
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11557,7 +11557,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 105.11
+    "value": 105.1
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11567,7 +11567,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.81
+    "value": 104.8
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11577,7 +11577,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.65
+    "value": 104.64
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11587,7 +11587,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.61
+    "value": 104.6
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11597,7 +11597,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.64
+    "value": 104.63
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11607,7 +11607,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.75
+    "value": 104.74
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11617,7 +11617,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.89
+    "value": 104.88
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11627,7 +11627,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.99
+    "value": 104.98
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11637,7 +11637,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 105.03
+    "value": 105.02
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11647,7 +11647,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 105.08
+    "value": 105.07
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11657,7 +11657,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.69
+    "value": 104.68
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11667,7 +11667,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 104.37
+    "value": 104.36
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11677,7 +11677,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 103.93
+    "value": 103.92
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11687,7 +11687,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 103.45
+    "value": 103.44
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11697,7 +11697,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 102.56
+    "value": 102.54
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11707,7 +11707,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 102.13
+    "value": 102.12
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11717,7 +11717,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 101.69
+    "value": 101.68
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11727,7 +11727,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 101.51
+    "value": 101.5
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11737,7 +11737,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 101.2
+    "value": 101.19
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11747,7 +11747,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 100.97
+    "value": 100.95
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11757,7 +11757,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 100.64
+    "value": 100.63
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11767,7 +11767,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 101.06
+    "value": 101.04
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11777,7 +11777,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 100.92
+    "value": 100.91
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11787,7 +11787,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 100.86
+    "value": 100.84
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11797,7 +11797,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 100.86
+    "value": 100.84
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11807,7 +11807,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 100.88
+    "value": 100.86
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11817,7 +11817,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 100.87
+    "value": 100.85
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11827,7 +11827,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 100.89
+    "value": 100.87
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11837,7 +11837,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 100.84
+    "value": 100.82
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11847,7 +11847,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 100.8
+    "value": 100.79
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11857,7 +11857,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 100.63
+    "value": 100.61
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11867,7 +11867,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 100.31
+    "value": 100.29
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11877,7 +11877,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 99.85
+    "value": 99.83
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11887,7 +11887,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 98.98
+    "value": 98.96
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11897,7 +11897,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 98.47
+    "value": 98.45
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11907,7 +11907,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 97.98
+    "value": 97.97
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11917,7 +11917,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 97.53
+    "value": 97.51
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11927,7 +11927,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 97.16
+    "value": 97.14
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11937,7 +11937,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 96.83
+    "value": 96.81
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11947,7 +11947,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 96.62
+    "value": 96.59
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11957,7 +11957,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 96.8
+    "value": 96.77
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11967,7 +11967,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 96.63
+    "value": 96.6
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11977,7 +11977,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 96.5
+    "value": 96.48
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11987,7 +11987,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 96.34
+    "value": 96.32
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -11997,7 +11997,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 96.19
+    "value": 96.17
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12007,7 +12007,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 96.03
+    "value": 96.01
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12017,7 +12017,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 95.73
+    "value": 95.71
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12027,7 +12027,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 95.37
+    "value": 95.35
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12037,7 +12037,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 95.08
+    "value": 95.06
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12047,7 +12047,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 94.52
+    "value": 94.5
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12057,7 +12057,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 94.14
+    "value": 94.12
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12067,7 +12067,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 93.71
+    "value": 93.69
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12077,7 +12077,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 93.32
+    "value": 93.3
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12087,7 +12087,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 93.17
+    "value": 93.15
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12097,7 +12097,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 93.1
+    "value": 93.08
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12107,7 +12107,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 93.03
+    "value": 93.01
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12117,7 +12117,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 93.2
+    "value": 93.18
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12127,7 +12127,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 93.13
+    "value": 93.11
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12137,7 +12137,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 92.98
+    "value": 92.96
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12147,7 +12147,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 92.7
+    "value": 92.68
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12157,7 +12157,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 92.28
+    "value": 92.27
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12167,7 +12167,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 91.8
+    "value": 91.78
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12177,7 +12177,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 91.2
+    "value": 91.19
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12187,7 +12187,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 90.49
+    "value": 90.48
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12197,7 +12197,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 89.92
+    "value": 89.91
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12207,7 +12207,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 89.45
+    "value": 89.44
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12217,7 +12217,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 89.21
+    "value": 89.2
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12227,7 +12227,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 88.97
+    "value": 88.96
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12237,7 +12237,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 88.83
+    "value": 88.82
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12247,7 +12247,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 88.72
+    "value": 88.71
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12257,7 +12257,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 88.51
+    "value": 88.5
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12267,7 +12267,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 88.31
+    "value": 88.3
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12277,7 +12277,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 88.14
+    "value": 88.12
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12287,7 +12287,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 87.92
+    "value": 87.91
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12297,7 +12297,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 87.91
+    "value": 87.9
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12307,7 +12307,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 87.84
+    "value": 87.83
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12317,7 +12317,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 87.77
+    "value": 87.76
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12327,7 +12327,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 87.83
+    "value": 87.82
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12337,7 +12337,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 87.81
+    "value": 87.79
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12347,7 +12347,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 87.81
+    "value": 87.8
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12357,7 +12357,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 87.85
+    "value": 87.84
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12367,7 +12367,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 87.78
+    "value": 87.76
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12377,7 +12377,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 87.74
+    "value": 87.73
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12387,7 +12387,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 87.72
+    "value": 87.71
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12397,7 +12397,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 87.75
+    "value": 87.74
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12407,7 +12407,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 87.74
+    "value": 87.73
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12417,7 +12417,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 87.65
+    "value": 87.63
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12427,7 +12427,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 87.43
+    "value": 87.42
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12437,7 +12437,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 87.11
+    "value": 87.1
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12447,7 +12447,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 86.74
+    "value": 86.73
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12457,7 +12457,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 86.27
+    "value": 86.26
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12467,7 +12467,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 85.61
+    "value": 85.6
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12477,7 +12477,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 84.93
+    "value": 84.92
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12487,7 +12487,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 84.35
+    "value": 84.34
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12497,7 +12497,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.88
+    "value": 83.87
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12507,7 +12507,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.61
+    "value": 83.6
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12517,7 +12517,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.27
+    "value": 83.26
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12527,7 +12527,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.08
+    "value": 83.07
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12537,7 +12537,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.07
+    "value": 83.06
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12547,7 +12547,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.11
+    "value": 83.1
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12557,7 +12557,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.11
+    "value": 83.1
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12567,7 +12567,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.04
+    "value": 83.03
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12577,7 +12577,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.02
+    "value": 83.01
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12587,7 +12587,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.15
+    "value": 83.14
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12597,7 +12597,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.2
+    "value": 83.19
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12607,7 +12607,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.29
+    "value": 83.28
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12617,7 +12617,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.29
+    "value": 83.28
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12627,7 +12627,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.31
+    "value": 83.3
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12637,7 +12637,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.45
+    "value": 83.44
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12647,7 +12647,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.51
+    "value": 83.5
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12657,7 +12657,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.38
+    "value": 83.37
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12667,7 +12667,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 83.24
+    "value": 83.23
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12677,7 +12677,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 82.7
+    "value": 82.69
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12687,7 +12687,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 82.68
+    "value": 82.67
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12697,7 +12697,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 82.68
+    "value": 82.67
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12707,7 +12707,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 82.47
+    "value": 82.46
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12717,7 +12717,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 82.36
+    "value": 82.35
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12727,7 +12727,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 82.29
+    "value": 82.28
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12737,7 +12737,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 82.31
+    "value": 82.3
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12747,7 +12747,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 82.52
+    "value": 82.51
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12757,7 +12757,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 82.39
+    "value": 82.37
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12767,7 +12767,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 82.16
+    "value": 82.15
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12777,7 +12777,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 82
+    "value": 81.99
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12787,7 +12787,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 81.65
+    "value": 81.64
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12797,7 +12797,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 81.33
+    "value": 81.32
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12807,7 +12807,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 81.1
+    "value": 81.09
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12817,7 +12817,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 81.05
+    "value": 81.04
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12827,7 +12827,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 80.88
+    "value": 80.87
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12837,7 +12837,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 80.76
+    "value": 80.75
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12847,7 +12847,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 80.67
+    "value": 80.66
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12857,7 +12857,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 80.57
+    "value": 80.56
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12867,7 +12867,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 80.5
+    "value": 80.49
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12877,7 +12877,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 80.36
+    "value": 80.35
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12887,7 +12887,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 80.02
+    "value": 80.01
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12897,7 +12897,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 79.92
+    "value": 79.91
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12927,7 +12927,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 79.92
+    "value": 79.91
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12947,7 +12947,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 79.95
+    "value": 79.94
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12967,7 +12967,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 80.21
+    "value": 80.2
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12977,7 +12977,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 80.18
+    "value": 80.17
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12987,7 +12987,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 80.1
+    "value": 80.09
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -12997,7 +12997,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 80.04
+    "value": 80.03
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13017,7 +13017,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 80.09
+    "value": 80.08
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13027,7 +13027,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 80.18
+    "value": 80.17
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13047,7 +13047,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 80.5
+    "value": 80.49
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13057,7 +13057,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 80.53
+    "value": 80.52
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13067,7 +13067,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 80.38
+    "value": 80.37
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13087,7 +13087,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 79.86
+    "value": 79.85
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13097,7 +13097,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 79.5
+    "value": 79.49
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13457,7 +13457,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 77.19
+    "value": 77.18
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13467,7 +13467,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 77.2
+    "value": 77.19
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13477,7 +13477,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 77.26
+    "value": 77.25
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13507,7 +13507,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 77.63
+    "value": 77.62
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13537,7 +13537,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 77.97
+    "value": 77.96
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13547,7 +13547,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 77.97
+    "value": 77.96
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13557,7 +13557,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 77.91
+    "value": 77.9
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13567,7 +13567,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 77.97
+    "value": 77.96
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13617,7 +13617,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 76.87
+    "value": 76.86
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13627,7 +13627,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 76.7
+    "value": 76.69
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13677,7 +13677,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 76.02
+    "value": 76.01
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13687,7 +13687,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 75.85
+    "value": 75.84
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13697,7 +13697,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 75.71
+    "value": 75.7
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -13717,7 +13717,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 75.5
+    "value": 75.49
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -15287,7 +15287,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 67.17
+    "value": 67.18
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -15327,7 +15327,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 66.8
+    "value": 66.81
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -15367,7 +15367,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 65.71
+    "value": 65.72
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -15397,7 +15397,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 64.5
+    "value": 64.51
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -15407,7 +15407,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 64.03
+    "value": 64.04
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -15417,7 +15417,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 63.76
+    "value": 63.77
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -15447,7 +15447,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 63.96
+    "value": 63.97
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16197,7 +16197,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 61.45
+    "value": 61.44
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16207,7 +16207,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 61.43
+    "value": 61.42
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16247,7 +16247,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 61.57
+    "value": 61.56
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16637,7 +16637,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 57.75
+    "value": 57.76
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16647,7 +16647,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 57.85
+    "value": 57.86
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16657,7 +16657,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 57.96
+    "value": 57.97
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16667,7 +16667,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 57.98
+    "value": 57.99
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16677,7 +16677,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 58.03
+    "value": 58.04
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16687,7 +16687,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 58.09
+    "value": 58.1
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16697,7 +16697,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 58.05
+    "value": 58.06
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16707,7 +16707,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 57.91
+    "value": 57.92
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16727,7 +16727,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 57.48
+    "value": 57.49
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16767,7 +16767,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.52
+    "value": 56.53
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16787,7 +16787,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.3
+    "value": 56.31
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16807,7 +16807,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.26
+    "value": 56.27
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16817,7 +16817,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.32
+    "value": 56.33
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16837,7 +16837,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.57
+    "value": 56.58
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -16967,7 +16967,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 57.73
+    "value": 57.74
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -17027,7 +17027,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 57.65
+    "value": 57.66
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -17037,7 +17037,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 57.56
+    "value": 57.57
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -17837,7 +17837,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 54.13
+    "value": 54.12
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -17867,7 +17867,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 54.68
+    "value": 54.67
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -17947,7 +17947,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 54.44
+    "value": 54.43
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -17967,7 +17967,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 54.14
+    "value": 54.13
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -17977,7 +17977,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 53.97
+    "value": 53.96
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -17987,7 +17987,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 53.89
+    "value": 53.88
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -17997,7 +17997,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 53.85
+    "value": 53.84
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18007,7 +18007,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 53.79
+    "value": 53.78
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18017,7 +18017,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 53.6
+    "value": 53.59
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18027,7 +18027,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 53.47
+    "value": 53.46
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18037,7 +18037,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 53.49
+    "value": 53.48
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18077,7 +18077,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 54.04
+    "value": 54.03
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18087,7 +18087,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 54.29
+    "value": 54.28
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18137,7 +18137,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 55.44
+    "value": 55.43
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18147,7 +18147,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 55.63
+    "value": 55.62
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18157,7 +18157,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 55.81
+    "value": 55.8
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18167,7 +18167,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 55.96
+    "value": 55.95
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18177,7 +18177,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.1
+    "value": 56.09
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18227,7 +18227,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.78
+    "value": 56.77
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18257,7 +18257,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.71
+    "value": 56.7
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18287,7 +18287,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.21
+    "value": 56.2
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18307,7 +18307,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.09
+    "value": 56.08
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18327,7 +18327,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.08
+    "value": 56.07
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18337,7 +18337,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.05
+    "value": 56.04
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18347,7 +18347,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.12
+    "value": 56.11
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18367,7 +18367,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.25
+    "value": 56.24
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18377,7 +18377,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.3
+    "value": 56.29
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18397,7 +18397,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.39
+    "value": 56.38
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18407,7 +18407,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.38
+    "value": 56.37
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18417,7 +18417,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 56.13
+    "value": 56.12
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18457,7 +18457,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 55.92
+    "value": 55.91
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18467,7 +18467,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 55.87
+    "value": 55.86
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -18517,7 +18517,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 55.96
+    "value": 55.95
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -19847,7 +19847,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.3
+    "value": 60.29
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -19857,7 +19857,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.41
+    "value": 60.4
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -19867,7 +19867,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.4
+    "value": 60.39
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -19887,7 +19887,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.36
+    "value": 60.35
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -19897,7 +19897,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.31
+    "value": 60.3
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -19937,7 +19937,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.31
+    "value": 60.3
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -19947,7 +19947,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.32
+    "value": 60.31
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -19967,7 +19967,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.4
+    "value": 60.39
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -19977,7 +19977,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.74
+    "value": 60.73
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20007,7 +20007,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.93
+    "value": 60.92
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20017,7 +20017,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.99
+    "value": 60.98
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20057,7 +20057,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 61.57
+    "value": 61.56
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20067,7 +20067,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 61.82
+    "value": 61.81
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20097,7 +20097,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 62.32
+    "value": 62.31
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20117,7 +20117,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 62.05
+    "value": 62.04
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20127,7 +20127,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 62.05
+    "value": 62.04
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20137,7 +20137,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 61.92
+    "value": 61.91
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20167,7 +20167,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 61.78
+    "value": 61.77
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20197,7 +20197,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 62.16
+    "value": 62.15
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20207,7 +20207,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 62.13
+    "value": 62.12
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20247,7 +20247,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 61.95
+    "value": 61.94
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20707,7 +20707,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 58.85
+    "value": 58.84
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20737,7 +20737,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 59.22
+    "value": 59.21
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20747,7 +20747,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 59.37
+    "value": 59.36
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20787,7 +20787,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 59.87
+    "value": 59.86
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20807,7 +20807,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 59.96
+    "value": 59.95
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20827,7 +20827,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60
+    "value": 59.99
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20867,7 +20867,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 59.09
+    "value": 59.08
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20877,7 +20877,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 58.94
+    "value": 58.93
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20887,7 +20887,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 58.74
+    "value": 58.73
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20907,7 +20907,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 58.78
+    "value": 58.77
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20927,7 +20927,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 58.86
+    "value": 58.85
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20957,7 +20957,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 59.28
+    "value": 59.27
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20967,7 +20967,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 59.31
+    "value": 59.3
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20977,7 +20977,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 59.39
+    "value": 59.38
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20987,7 +20987,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 59.45
+    "value": 59.44
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -20997,7 +20997,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 59.34
+    "value": 59.33
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -21007,7 +21007,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 59.12
+    "value": 59.11
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -21027,7 +21027,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 58.85
+    "value": 58.84
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -21047,7 +21047,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 58.62
+    "value": 58.61
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -21067,7 +21067,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 58.79
+    "value": 58.78
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -21077,7 +21077,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 59.01
+    "value": 59
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -21097,7 +21097,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 59.42
+    "value": 59.41
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -21117,7 +21117,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.41
+    "value": 60.4
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -21418,5 +21418,285 @@
     "sectorName": "Software Development",
     "postingType": "TOTAL",
     "value": 62.01
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-13",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.82
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-14",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.51
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-15",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.36
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-16",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.33
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-17",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.3
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-18",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.25
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-19",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.34
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-20",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.38
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-21",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.56
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-22",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.71
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-23",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.75
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-24",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.71
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-25",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.51
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-26",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.27
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-27",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.17
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-28",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.06
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-29",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.84
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-30",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.59
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2025-12-31",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.42
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-01-01",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.24
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-01-02",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.05
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-01-03",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 59.77
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-01-04",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 59.5
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-01-05",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 59.36
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-01-06",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 59.34
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-01-07",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 59.37
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-01-08",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 59.55
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-01-09",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 59.76
   }
 ]
