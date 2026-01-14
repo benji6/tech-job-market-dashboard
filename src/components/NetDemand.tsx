@@ -49,7 +49,7 @@ for (let i = 0; i < aggregatedPostingsData.length; i++) {
 
   layoffsEma = layoffsByMonthEma[dateKey];
 
-  const netIndexed = item.ema - layoffsEma;
+  const netIndexed = layoffsEma === undefined ? null : item.ema - layoffsEma;
 
   if (interestRatesByDate[item.date] !== undefined) {
     lastInterestRate = interestRatesByDate[item.date];
