@@ -144,21 +144,23 @@ export default function NetDemand() {
             strokeWidth={2}
           />
           <Line
-            yAxisId="left"
             dataKey="layoffsEmaIndexed"
             dot={false}
             name="Layoffs index (90-day exponential moving average)"
-            stroke="#ff6b6b"
             opacity={1 / 3}
+            stroke="#ff6b6b"
             strokeWidth={2}
+            type="monotone"
+            yAxisId="left"
           />
           <Line
-            yAxisId="left"
             dataKey="netIndexed"
             dot={false}
             name="Net demand for software engineers (postings index - layoffs index)"
             stroke="#111"
             strokeWidth={2}
+            type="monotone"
+            yAxisId="left"
           />
           {showInterestRate && (
             <Line

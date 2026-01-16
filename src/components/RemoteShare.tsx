@@ -65,10 +65,10 @@ export default function RemoteShare() {
           <Legend />
           <Line
             dataKey="value"
-            stroke="#ff7300"
-            strokeWidth={2}
             dot={false}
             name="Percentage of job postings and searches on Indeed mentioning remote/hybrid terms"
+            stroke="#ff7300"
+            strokeWidth={2}
           />
         </LineChart>
       </ResponsiveContainer>

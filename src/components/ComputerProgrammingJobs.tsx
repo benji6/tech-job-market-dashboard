@@ -71,10 +71,11 @@ export default function ComputerProgrammingJobs() {
           />
           <Line
             dataKey="employees"
-            stroke="#8884d8"
-            strokeWidth={2}
             dot={false}
             name="Employees (thousands)"
+            stroke="#8884d8"
+            strokeWidth={2}
+            type="monotone"
           />
         </LineChart>
       </ResponsiveContainer>
