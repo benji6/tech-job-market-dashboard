@@ -70,7 +70,7 @@ export default function NetDemand() {
   const [showInterestRate, setShowInterestRate] = useState(false);
 
   return (
-    <div>
+    <div style={{ gridColumn: "span 2" }}>
       <h2>Net demand for software engineers</h2>
       <ResponsiveContainer width="100%" height={500}>
         <ComposedChart

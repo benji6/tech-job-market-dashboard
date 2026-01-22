@@ -9,7 +9,7 @@ import {
   ResponsiveContainer,
   Line,
 } from "recharts";
-import { integerFormatter } from "../utils";
+import { compactIntegerFormatter } from "../utils";
 import aggregatedMonthlyLayoffData from "../aggregatedMonthlyLayoffData";
 
 export default function LayoffsByMonth() {
@@ -27,12 +27,13 @@ export default function LayoffsByMonth() {
             label={{
               value: "Layoffs",
               angle: -90,
-              dx: -40,
+              dx: -30,
             }}
+            tickFormatter={(value) => compactIntegerFormatter.format(value)}
           />
           <Tooltip
             formatter={(value, _, props) => [
-              integerFormatter.format(Number(value)),
+              compactIntegerFormatter.format(Number(value)),
               props.dataKey === "trueup"
                 ? "trueup"
                 : props.dataKey === "fyi"

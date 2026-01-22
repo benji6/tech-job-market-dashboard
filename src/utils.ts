@@ -9,6 +9,10 @@ export const defaultDict = <V>(createDefaultValue: () => V) =>
 export const integerFormatter = Intl.NumberFormat(undefined, {
   maximumFractionDigits: 0,
 });
+export const compactIntegerFormatter = new Intl.NumberFormat("en", {
+  notation: "compact",
+  maximumFractionDigits: 1,
+});
 export const oneDecimalPlaceFormatter = Intl.NumberFormat(undefined, {
   maximumFractionDigits: 1,
   minimumFractionDigits: 1,

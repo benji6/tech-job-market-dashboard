@@ -10,43 +10,39 @@ import {
 } from "recharts";
 import { useState } from "react";
 import { compactIntegerFormatter } from "../utils";
-import vacancySurveyInformationAndCommunication from "../data/vacancy-survey-information-and-communication.json";
+import workforceJobsInformationAndCommunication from "../data/workforce-jobs-information-and-communication.json";
 
-const EMA_PERIOD = 3;
-const k = 2 / (EMA_PERIOD + 1);
-const vacancyData: { date: string; value: number; ema: number }[] = [];
-for (let i = 0; i < vacancySurveyInformationAndCommunication.length; i++) {
-  const item = vacancySurveyInformationAndCommunication[i];
+const workforceData: { date: string; value: number }[] = [];
+for (let i = 0; i < workforceJobsInformationAndCommunication.length; i++) {
+  const item = workforceJobsInformationAndCommunication[i];
   const value = item.value * 1e3;
-  vacancyData.push({
+  workforceData.push({
     date: item.date,
     value,
-    ema: i ? value * k + vacancyData[i - 1].ema * (1 - k) : value,
   });
 }
 
-export default function Vacancies() {
+export default function WorkforceJobs() {
   const [showFullHistory, setShowFullHistory] = useState(false);
-  const [indexToFeb2020, setIndexToFeb2020] = useState(true);
+  const [indexToMar2020, setIndexToMar2020] = useState(true);
 
-  const feb2020Value =
-    vacancyData.find((item) => item.date === "Dec-Feb 2020")?.value || 1;
+  const mar2020Value =
+    workforceData.find((item) => item.date === "2020-03")?.value || 1;
 
-  const processedData = vacancyData.map((item) => ({
+  const processedData = workforceData.map((item) => ({
     ...item,
-    value: indexToFeb2020 ? (item.value / feb2020Value) * 100 : item.value,
-    ema: indexToFeb2020 ? (item.ema / feb2020Value) * 100 : item.ema,
+    value: indexToMar2020 ? (item.value / mar2020Value) * 100 : item.value,
   }));
 
   const displayData = showFullHistory
     ? processedData
     : processedData.slice(
-        processedData.findIndex((item) => item.date === "Dec-Feb 2020"),
+        processedData.findIndex((item) => item.date === "2020-03"),
       );
 
   return (
     <div>
-      <h2>UK information and communication vacancies</h2>
+      <h2>UK information and communication workforce jobs</h2>
       <ResponsiveContainer width="100%" height={500}>
         <LineChart
           data={displayData}
@@ -65,10 +61,11 @@ export default function Vacancies() {
             minTickGap={50}
           />
           <YAxis
+            domain={showFullHistory ? [0, "auto"] : ["auto", "auto"]}
             label={{
-              value: indexToFeb2020 ? "Index (Feb 2020 = 100)" : "Vacancies",
+              value: indexToMar2020 ? "Index (Mar 2020 = 100)" : "Jobs",
               angle: -90,
-              dx: -30,
+              dx: -40,
             }}
             tickFormatter={(value) => compactIntegerFormatter.format(value)}
           />
@@ -84,9 +81,9 @@ export default function Vacancies() {
             formatter={(value, _, props) => [
               compactIntegerFormatter.format(Number(value)),
               props.dataKey === "value"
-                ? indexToFeb2020
+                ? indexToMar2020
                   ? "Index"
-                  : "Vacancies"
+                  : "Jobs"
                 : "Trend",
             ]}
           />
@@ -96,17 +93,8 @@ export default function Vacancies() {
             stroke="#8884d8"
             strokeWidth={2}
             dot={false}
-            name={indexToFeb2020 ? "Index" : "Vacancies"}
+            name={indexToMar2020 ? "Index" : "Jobs"}
             type="monotone"
-          />
-          <Line
-            type="monotone"
-            dataKey="ema"
-            stroke="#4ecdc4"
-            strokeWidth={2}
-            dot={false}
-            name="90 day exponential moving average"
-            strokeDasharray="5 5"
           />
         </LineChart>
       </ResponsiveContainer>
@@ -121,20 +109,20 @@ export default function Vacancies() {
       <label>
         <input
           type="checkbox"
-          checked={indexToFeb2020}
-          onChange={(e) => setIndexToFeb2020(e.target.checked)}
+          checked={indexToMar2020}
+          onChange={(e) => setIndexToMar2020(e.target.checked)}
         />
-        Index (Feb 2020 = 100)
+        Index (Mar 2020 = 100)
       </label>
       <details>
         <summary>Sources</summary>
         <ul>
           <li>
             <a
-              href="https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/vacanciesbyindustryvacs02"
+              href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/workforcejobsbyindustryjobs08"
               target="_blank"
             >
-              ONS Vacancies by industry
+              ONS Workforce jobs by industry
             </a>
           </li>
         </ul>

@@ -10,6 +10,7 @@ import NetDemand from "../NetDemand";
 import RemoteShare from "../RemoteShare";
 import SeeAlso from "../SeeAlso";
 import "./index.css";
+import WorkforceJobs from "../WorkforceJobs";
 
 export default function App() {
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -36,6 +37,7 @@ export default function App() {
         <LayoffsByMonth />
         <NetDemand />
         <ComputerProgrammingJobs />
+        <WorkforceJobs />
         <ComputerScienceGraduates />
         <RemoteShare />
       </div>

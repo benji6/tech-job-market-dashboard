@@ -7,7 +7,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { integerFormatter } from "../utils";
+import { compactIntegerFormatter } from "../utils";
 import computerScienceGraduates from "../data/computer-science-graduates.json";
 
 const chartData = computerScienceGraduates.map((d) => ({
@@ -31,13 +31,13 @@ export default function ComputerScienceGraduates() {
             label={{
               value: "Graduates",
               angle: -90,
-              dx: -50,
+              dx: -30,
             }}
-            tickFormatter={(value) => integerFormatter.format(value)}
+            tickFormatter={(value) => compactIntegerFormatter.format(value)}
           />
           <Tooltip
             formatter={(value) => [
-              integerFormatter.format(Number(value)),
+              compactIntegerFormatter.format(Number(value)),
               "Graduates",
             ]}
           />

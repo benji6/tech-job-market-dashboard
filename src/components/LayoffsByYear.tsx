@@ -11,7 +11,7 @@ import {
 } from "recharts";
 import layoffsAnnualTrueupData from "../data/layoffs-annual-trueup.json";
 import layoffsMonthlyFYIData from "../data/layoffs-monthly-fyi.json";
-import { defaultDict, integerFormatter } from "../utils";
+import { compactIntegerFormatter, defaultDict } from "../utils";
 
 const layoffsFyiByYear = defaultDict(() => 0);
 for (const item of layoffsMonthlyFYIData)
@@ -42,13 +42,14 @@ export default function LayoffsByYear() {
             label={{
               value: "Layoffs",
               angle: -90,
-              dx: -50,
+              dx: -40,
             }}
+            tickFormatter={(value) => compactIntegerFormatter.format(value)}
           />
           <Tooltip
             formatter={(value) => {
               if (value === null) return null;
-              return integerFormatter.format(Number(value));
+              return compactIntegerFormatter.format(Number(value));
             }}
           />
           <Legend />

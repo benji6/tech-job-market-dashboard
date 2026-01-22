@@ -8,24 +8,39 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { integerFormatter } from "../utils";
+import { compactIntegerFormatter } from "../utils";
 import computerProgrammingJobs from "../data/computer-programming-jobs.json";
 
 const chartData = computerProgrammingJobs.map((d) => ({
   date: new Date(d.date).getTime(),
-  employees: Number(d.thousandEmplyees),
+  employees: Number(d.thousandEmplyees) * 1e3,
 }));
 
 export default function ComputerProgrammingJobs() {
   const [showFullHistory, setShowFullHistory] = useState(false);
+  const [indexToMarch2020, setIndexToMarch2020] = useState(true);
 
-  const displayData = showFullHistory
+  const filteredData = showFullHistory
     ? chartData
-    : chartData.filter((d) => d.date >= new Date("2019-12-01").getTime());
+    : chartData.filter((d) => d.date >= new Date("2020-02-01").getTime());
 
-  const yDomain: [number | "auto", number | "auto"] = showFullHistory
-    ? [0, "auto"]
-    : ["auto", "auto"];
+  const march2020Value = chartData.find((d) =>
+    new Date(d.date).toISOString().startsWith("2020-03"),
+  )?.employees;
+
+  const displayData =
+    indexToMarch2020 && march2020Value
+      ? filteredData.map((d) => ({
+          ...d,
+          employees: (d.employees / march2020Value) * 100,
+        }))
+      : filteredData;
+
+  const yDomain: [number | "auto", number | "auto"] = indexToMarch2020
+    ? ["auto", "auto"]
+    : showFullHistory
+      ? [0, "auto"]
+      : ["auto", "auto"];
 
   return (
     <div>
@@ -51,10 +66,17 @@ export default function ComputerProgrammingJobs() {
           <YAxis
             domain={yDomain}
             label={{
-              value: "Employees (thousands)",
+              value: indexToMarch2020
+                ? "Index (March 2020 = 100)"
+                : "Employees",
               angle: -90,
               dx: -30,
             }}
+            tickFormatter={(value) =>
+              indexToMarch2020
+                ? value.toFixed(0)
+                : compactIntegerFormatter.format(value)
+            }
           />
           <Tooltip
             labelFormatter={(date) => {
@@ -65,14 +87,16 @@ export default function ComputerProgrammingJobs() {
               });
             }}
             formatter={(value) => [
-              integerFormatter.format(Number(value)) + "k",
-              "Employees",
+              indexToMarch2020
+                ? Number(value).toFixed(1)
+                : compactIntegerFormatter.format(Number(value)),
+              indexToMarch2020 ? "Index" : "Employees",
             ]}
           />
           <Line
             dataKey="employees"
             dot={false}
-            name="Employees (thousands)"
+            name="Employees"
             stroke="#8884d8"
             strokeWidth={2}
             type="monotone"
@@ -86,6 +110,14 @@ export default function ComputerProgrammingJobs() {
           onChange={(e) => setShowFullHistory(e.target.checked)}
         />
         Show full history
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          checked={indexToMarch2020}
+          onChange={(e) => setIndexToMarch2020(e.target.checked)}
+        />
+        Index to March 2020 = 100
       </label>
       <details>
         <summary>Sources</summary>
