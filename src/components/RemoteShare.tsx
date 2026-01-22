@@ -72,6 +72,16 @@ export default function RemoteShare() {
           />
         </LineChart>
       </ResponsiveContainer>
+      <details>
+        <summary>Sources</summary>
+        <ul>
+          <li>
+            <a href="https://data.indeed.com/#/remote" target="_blank">
+              Indeed remote tracker
+            </a>
+          </li>
+        </ul>
+      </details>
     </div>
   );
 }

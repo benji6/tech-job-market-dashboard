@@ -53,6 +53,21 @@ export default function LayoffsByMonth() {
           />
         </ComposedChart>
       </ResponsiveContainer>
+      <details>
+        <summary>Sources</summary>
+        <ul>
+          <li>
+            <a href="https://layoffs.fyi" target="_blank">
+              Layoffs.fyi layoffs
+            </a>
+          </li>
+          <li>
+            <a href="https://www.trueup.io/layoffs" target="_blank">
+              trueup layoffs
+            </a>
+          </li>
+        </ul>
+      </details>
     </div>
   );
 }

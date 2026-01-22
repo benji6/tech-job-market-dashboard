@@ -72,6 +72,16 @@ export default function JobPostings() {
           />
         </LineChart>
       </ResponsiveContainer>
+      <details>
+        <summary>Sources</summary>
+        <ul>
+          <li>
+            <a href="https://data.indeed.com/#/postings" target="_blank">
+              Indeed job postings
+            </a>
+          </li>
+        </ul>
+      </details>
     </div>
   );
 }

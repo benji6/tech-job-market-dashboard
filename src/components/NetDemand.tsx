@@ -176,6 +176,13 @@ export default function NetDemand() {
           <ReferenceLine yAxisId="left" y={0} stroke="#111" />
         </ComposedChart>
       </ResponsiveContainer>
+      <div>
+        <small>
+          Trends are indicated with 90 day exponential moving averages, using
+          all available data sources and indexed to 100 for the start of each
+          series
+        </small>
+      </div>
       <label style={{ display: "block", marginBlock: "1em" }}>
         <input
           type="checkbox"
@@ -184,13 +191,34 @@ export default function NetDemand() {
         />{" "}
         Show Bank of England interest rate
       </label>
-      <div>
-        <small>
-          Trends are indicated with 90 day exponential moving averages, using
-          all available data sources and indexed to 100 for the start of each
-          series
-        </small>
-      </div>
+      <details>
+        <summary>Sources</summary>
+        <ul>
+          <li>
+            <a href="https://data.indeed.com/#/postings" target="_blank">
+              Indeed job postings
+            </a>
+          </li>
+          <li>
+            <a href="https://layoffs.fyi" target="_blank">
+              Layoffs.fyi layoffs
+            </a>
+          </li>
+          <li>
+            <a href="https://www.trueup.io/layoffs" target="_blank">
+              trueup layoffs
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
+              target="_blank"
+            >
+              Bank of England interest rate
+            </a>
+          </li>
+        </ul>
+      </details>
     </div>
   );
 }

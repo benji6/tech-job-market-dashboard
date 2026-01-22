@@ -87,6 +87,19 @@ export default function ComputerProgrammingJobs() {
         />
         Show full history
       </label>
+      <details>
+        <summary>Sources</summary>
+        <ul>
+          <li>
+            <a
+              href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/employeejobsbyindustryjobs03"
+              target="_blank"
+            >
+              ONS Employee jobs by industry
+            </a>
+          </li>
+        </ul>
+      </details>
     </div>
   );
 }

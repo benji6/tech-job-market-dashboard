@@ -8,7 +8,7 @@ import LayoffsByYear from "../LayoffsByYear";
 import Notes from "../Notes";
 import NetDemand from "../NetDemand";
 import RemoteShare from "../RemoteShare";
-import Sources from "../Sources";
+import SeeAlso from "../SeeAlso";
 import "./index.css";
 
 export default function App() {
@@ -40,7 +40,7 @@ export default function App() {
         <RemoteShare />
       </div>
       <Notes />
-      <Sources />
+      <SeeAlso />
     </>
   );
 }

@@ -44,6 +44,38 @@ export default function ComputerScienceGraduates() {
           <Bar dataKey="graduates" fill="#82ca9d" name="Graduates" />
         </BarChart>
       </ResponsiveContainer>
+      <details>
+        <summary>Sources</summary>
+        <ul>
+          <li>
+            <a
+              href="https://www.hesa.ac.uk/news/20-03-2025/sb271-higher-education-student-statistics/qualifications"
+              target="_blank"
+            >
+              Higher Education Student Statistics: UK, 2023/24 - Qualifications
+              achieved
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.hesa.ac.uk/news/25-01-2022/sb262-higher-education-student-statistics/qualifications"
+              target="_blank"
+            >
+              Higher Education Student Statistics: UK, 2020/21 - Qualifications
+              achieved
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.hesa.ac.uk/news/11-01-2018/sfr247-higher-education-student-statistics/qualifications"
+              target="_blank"
+            >
+              Higher Education Student Statistics: UK, 2016/17 - Qualifications
+              achieved
+            </a>
+          </li>
+        </ul>
+      </details>
     </div>
   );
 }

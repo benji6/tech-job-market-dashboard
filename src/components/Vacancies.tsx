@@ -127,6 +127,19 @@ export default function Vacancies() {
         />
         Index (Feb 2020 = 100)
       </label>
+      <details>
+        <summary>Sources</summary>
+        <ul>
+          <li>
+            <a
+              href="https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/vacanciesbyindustryvacs02"
+              target="_blank"
+            >
+              ONS Vacancies by industry
+            </a>
+          </li>
+        </ul>
+      </details>
     </div>
   );
 }
