@@ -13,7 +13,7 @@ import aggregatedPostingsData from "../aggregatedPostingsData";
 
 export default function JobPostings() {
   return (
-    <>
+    <div>
       <h2>UK software development job postings index</h2>
       <ResponsiveContainer width="100%" height={500}>
         <LineChart
@@ -72,6 +72,6 @@ export default function JobPostings() {
           />
         </LineChart>
       </ResponsiveContainer>
-    </>
+    </div>
   );
 }

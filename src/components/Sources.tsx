@@ -10,6 +10,14 @@ export default function Sources() {
           </a>
         </li>
         <li>
+          <a
+            href="https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/vacanciesbyindustryvacs02"
+            target="_blank"
+          >
+            ONS Vacancies by industry
+          </a>
+        </li>
+        <li>
           <a href="https://data.indeed.com/#/remote" target="_blank">
             Indeed remote tracker
           </a>

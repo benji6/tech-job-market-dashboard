@@ -28,7 +28,7 @@ export default function ComputerProgrammingJobs() {
     : ["auto", "auto"];
 
   return (
-    <>
+    <div>
       <h2>UK computer programming employment</h2>
       <ResponsiveContainer width="100%" height={500}>
         <LineChart
@@ -87,6 +87,6 @@ export default function ComputerProgrammingJobs() {
         />
         Show full history
       </label>
-    </>
+    </div>
   );
 }

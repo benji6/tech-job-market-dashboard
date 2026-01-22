@@ -17,7 +17,7 @@ const chartData = computerScienceGraduates.map((d) => ({
 
 export default function ComputerScienceGraduates() {
   return (
-    <>
+    <div>
       <h2>UK computer science graduates</h2>
       <ResponsiveContainer width="100%" height={500}>
         <BarChart
@@ -44,6 +44,6 @@ export default function ComputerScienceGraduates() {
           <Bar dataKey="graduates" fill="#82ca9d" name="Graduates" />
         </BarChart>
       </ResponsiveContainer>
-    </>
+    </div>
   );
 }

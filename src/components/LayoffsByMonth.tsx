@@ -14,7 +14,7 @@ import aggregatedMonthlyLayoffData from "../aggregatedMonthlyLayoffData";
 
 export default function LayoffsByMonth() {
   return (
-    <>
+    <div>
       <h2>Layoffs by month</h2>
       <ResponsiveContainer width="100%" height={500}>
         <ComposedChart
@@ -53,6 +53,6 @@ export default function LayoffsByMonth() {
           />
         </ComposedChart>
       </ResponsiveContainer>
-    </>
+    </div>
   );
 }

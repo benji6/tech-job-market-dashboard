@@ -18,7 +18,7 @@ const processedData = remoteSectorShareData.map((d) => ({
 
 export default function RemoteShare() {
   return (
-    <>
+    <div>
       <h2>UK software development remote job share (%)</h2>
       <ResponsiveContainer width="100%" height={500}>
         <LineChart
@@ -72,6 +72,6 @@ export default function RemoteShare() {
           />
         </LineChart>
       </ResponsiveContainer>
-    </>
+    </div>
   );
 }

@@ -29,7 +29,7 @@ const annualLayoffsData = layoffsAnnualTrueupData.map((item) => {
 
 export default function LayoffsByYear() {
   return (
-    <>
+    <div>
       <h2>Layoffs by year</h2>
       <ResponsiveContainer width="100%" height={500}>
         <ComposedChart
@@ -64,6 +64,6 @@ export default function LayoffsByYear() {
           />
         </ComposedChart>
       </ResponsiveContainer>
-    </>
+    </div>
   );
 }

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import ComputerProgrammingJobs from "../ComputerProgrammingJobs";
 import ComputerScienceGraduates from "../ComputerScienceGraduates";
-import UkSweJobPostings from "../JobPostings";
+import JobPostings from "../JobPostings";
+import Vacancies from "../Vacancies";
 import LayoffsByMonth from "../LayoffsByMonth";
 import LayoffsByYear from "../LayoffsByYear";
 import Notes from "../Notes";
@@ -29,27 +30,14 @@ export default function App() {
       <div
         className={`dashboard${isFullscreen ? " dashboard--fullscreen" : ""}`}
       >
-        <div>
-          <UkSweJobPostings />
-        </div>
-        <div>
-          <LayoffsByYear />
-        </div>
-        <div>
-          <LayoffsByMonth />
-        </div>
-        <div>
-          <NetDemand />
-        </div>
-        <div>
-          <ComputerProgrammingJobs />
-        </div>
-        <div>
-          <ComputerScienceGraduates />
-        </div>
-        <div>
-          <RemoteShare />
-        </div>
+        <JobPostings />
+        <Vacancies />
+        <LayoffsByYear />
+        <LayoffsByMonth />
+        <NetDemand />
+        <ComputerProgrammingJobs />
+        <ComputerScienceGraduates />
+        <RemoteShare />
       </div>
       <Notes />
       <Sources />
