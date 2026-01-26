@@ -53,17 +53,7 @@ export default function Vacancies() {
           margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis
-            dataKey="date"
-            tickFormatter={(date) => {
-              const d = new Date(date);
-              return d.toLocaleDateString("en-GB", {
-                month: "short",
-                year: "numeric",
-              });
-            }}
-            minTickGap={50}
-          />
+          <XAxis dataKey="date" minTickGap={50} />
           <YAxis
             label={{
               value: indexToFeb2020 ? "Index (Feb 2020 = 100)" : "Vacancies",
@@ -73,14 +63,6 @@ export default function Vacancies() {
             tickFormatter={(value) => compactIntegerFormatter.format(value)}
           />
           <Tooltip
-            labelFormatter={(date) => {
-              const d = new Date(date);
-              return d.toLocaleDateString("en-GB", {
-                day: "numeric",
-                month: "long",
-                year: "numeric",
-              });
-            }}
             formatter={(value, _, props) => [
               compactIntegerFormatter.format(Number(value)),
               props.dataKey === "value"
