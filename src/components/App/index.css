@@ -27,3 +27,7 @@
   margin: 0.25em 0;
   text-align: center;
 }
+
+.dashboard:not(.dashboard--fullscreen) .dashboard__item--stretch {
+  grid-column: span 2;
+}

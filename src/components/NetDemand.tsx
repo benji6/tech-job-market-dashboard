@@ -14,6 +14,7 @@ import aggregatedMonthlyLayoffData from "../aggregatedMonthlyLayoffData";
 import aggregatedPostingsData from "../aggregatedPostingsData";
 import interestRatesData from "../data/boe-interest-rates.json";
 import { integerFormatter } from "../utils";
+import { COLOR } from "../constants";
 
 const layoffsByMonth: Record<string, number> = {};
 for (const { date, index } of aggregatedMonthlyLayoffData) {
@@ -70,7 +71,7 @@ export default function NetDemand() {
   const [showInterestRate, setShowInterestRate] = useState(false);
 
   return (
-    <div style={{ gridColumn: "span 2" }}>
+    <div className="dashboard__item--stretch">
       <h2>Net demand for software engineers</h2>
       <ResponsiveContainer width="100%" height={500}>
         <ComposedChart
@@ -139,7 +140,7 @@ export default function NetDemand() {
             dataKey="jobPostingsEmaIndexed"
             dot={false}
             name="Job postings index (90-day exponential moving average)"
-            stroke="#4ecdc4"
+            stroke={COLOR.secondary}
             opacity={1 / 3}
             strokeWidth={2}
           />
@@ -148,7 +149,7 @@ export default function NetDemand() {
             dot={false}
             name="Layoffs index (90-day exponential moving average)"
             opacity={1 / 3}
-            stroke="#ff6b6b"
+            stroke={COLOR.negative}
             strokeWidth={2}
             type="monotone"
             yAxisId="left"

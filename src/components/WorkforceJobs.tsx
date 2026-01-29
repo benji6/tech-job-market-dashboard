@@ -11,6 +11,7 @@ import {
 import { useState } from "react";
 import { compactIntegerFormatter } from "../utils";
 import workforceJobsInformationAndCommunication from "../data/workforce-jobs-information-and-communication.json";
+import { COLOR } from "../constants";
 
 const workforceData: { date: string; value: number }[] = [];
 for (let i = 0; i < workforceJobsInformationAndCommunication.length; i++) {
@@ -90,7 +91,7 @@ export default function WorkforceJobs() {
           <Legend />
           <Line
             dataKey="value"
-            stroke="#8884d8"
+            stroke={COLOR.primary}
             strokeWidth={2}
             dot={false}
             name={indexToMar2020 ? "Index" : "Jobs"}

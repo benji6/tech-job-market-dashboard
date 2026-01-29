@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ComputerProgrammingJobs from "../ComputerProgrammingJobs";
-import ComputerScienceGraduates from "../ComputerScienceGraduates";
+import ComputingGraduateOutcomes from "../ComputingGraduateOutcomes";
 import JobPostings from "../JobPostings";
 import Vacancies from "../Vacancies";
 import LayoffsByMonth from "../LayoffsByMonth";
@@ -38,7 +38,7 @@ export default function App() {
         <NetDemand />
         <ComputerProgrammingJobs />
         <WorkforceJobs />
-        <ComputerScienceGraduates />
+        <ComputingGraduateOutcomes />
         <RemoteShare />
       </div>
       <Notes />

@@ -11,6 +11,7 @@ import {
 } from "recharts";
 import { compactIntegerFormatter } from "../utils";
 import aggregatedMonthlyLayoffData from "../aggregatedMonthlyLayoffData";
+import { COLOR } from "../constants";
 
 export default function LayoffsByMonth() {
   return (
@@ -42,13 +43,13 @@ export default function LayoffsByMonth() {
             ]}
           />
           <Legend />
-          <Bar dataKey="trueup" fill="#ff6b6b" name="trueup" />
+          <Bar dataKey="trueup" fill={COLOR.negative} name="trueup" />
           <Bar dataKey="fyi" fill="#9b59b6" name="Layoffs.fyi" />
           <Line
             dataKey="ema12"
             dot={false}
             name="12-month exponential moving average"
-            stroke="#4ecdc4"
+            stroke={COLOR.secondary}
             strokeWidth={2}
             type="monotone"
           />

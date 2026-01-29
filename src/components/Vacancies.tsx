@@ -11,6 +11,7 @@ import {
 import { useState } from "react";
 import { compactIntegerFormatter } from "../utils";
 import vacancySurveyInformationAndCommunication from "../data/vacancy-survey-information-and-communication.json";
+import { COLOR } from "../constants";
 
 const EMA_PERIOD = 3;
 const k = 2 / (EMA_PERIOD + 1);
@@ -75,7 +76,7 @@ export default function Vacancies() {
           <Legend />
           <Line
             dataKey="value"
-            stroke="#8884d8"
+            stroke={COLOR.primary}
             strokeWidth={2}
             dot={false}
             name={indexToFeb2020 ? "Index" : "Vacancies"}
@@ -84,7 +85,7 @@ export default function Vacancies() {
           <Line
             type="monotone"
             dataKey="ema"
-            stroke="#4ecdc4"
+            stroke={COLOR.secondary}
             strokeWidth={2}
             dot={false}
             name="90 day exponential moving average"

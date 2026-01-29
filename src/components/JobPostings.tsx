@@ -10,6 +10,7 @@ import {
 } from "recharts";
 import { integerFormatter } from "../utils";
 import aggregatedPostingsData from "../aggregatedPostingsData";
+import { COLOR } from "../constants";
 
 export default function JobPostings() {
   return (
@@ -56,7 +57,7 @@ export default function JobPostings() {
           <Legend />
           <Line
             dataKey="value"
-            stroke="#8884d8"
+            stroke={COLOR.primary}
             strokeWidth={2}
             dot={false}
             name="Job postings index"
@@ -64,7 +65,7 @@ export default function JobPostings() {
           <Line
             type="monotone"
             dataKey="ema"
-            stroke="#4ecdc4"
+            stroke={COLOR.secondary}
             strokeWidth={2}
             dot={false}
             name="90-day expoenential moving average"

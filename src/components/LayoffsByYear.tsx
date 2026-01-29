@@ -12,6 +12,7 @@ import {
 import layoffsAnnualTrueupData from "../data/layoffs-annual-trueup.json";
 import layoffsMonthlyFYIData from "../data/layoffs-monthly-fyi.json";
 import { compactIntegerFormatter, defaultDict } from "../utils";
+import { COLOR } from "../constants";
 
 const layoffsFyiByYear = defaultDict(() => 0);
 for (const item of layoffsMonthlyFYIData)
@@ -53,13 +54,13 @@ export default function LayoffsByYear() {
             }}
           />
           <Legend />
-          <Bar dataKey="trueup" fill="#ff6b6b" name="trueup" />
+          <Bar dataKey="trueup" fill={COLOR.negative} name="trueup" />
           <Bar dataKey="fyi" fill="#9b59b6" name="Layoffs.fyi" />
           <Line
             dataKey="average"
             dot={false}
             name="Average"
-            stroke="#4ecdc4"
+            stroke={COLOR.secondary}
             strokeWidth={2}
             type="monotone"
           />

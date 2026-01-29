@@ -10,6 +10,7 @@ import {
 } from "recharts";
 import { compactIntegerFormatter } from "../utils";
 import computerProgrammingJobs from "../data/computer-programming-jobs.json";
+import { COLOR } from "../constants";
 
 const chartData = computerProgrammingJobs.map((d) => ({
   date: new Date(d.date).getTime(),
@@ -97,7 +98,7 @@ export default function ComputerProgrammingJobs() {
             dataKey="employees"
             dot={false}
             name="Employees"
-            stroke="#8884d8"
+            stroke={COLOR.primary}
             strokeWidth={2}
             type="monotone"
           />

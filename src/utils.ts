@@ -17,6 +17,10 @@ export const oneDecimalPlaceFormatter = Intl.NumberFormat(undefined, {
   maximumFractionDigits: 1,
   minimumFractionDigits: 1,
 });
+export const integerPercentageFormatter = Intl.NumberFormat(undefined, {
+  style: "percent",
+  maximumFractionDigits: 0,
+});
 
 export const sum = (xs: number[]): number => {
   let total = 0;
