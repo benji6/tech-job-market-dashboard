@@ -44,12 +44,12 @@ export default function LayoffsByMonth() {
           />
           <Legend />
           <Bar dataKey="trueup" fill={COLOR.negative} name="trueup" />
-          <Bar dataKey="fyi" fill="#9b59b6" name="Layoffs.fyi" />
+          <Bar dataKey="fyi" fill={COLOR.negative2} name="Layoffs.fyi" />
           <Line
             dataKey="ema12"
             dot={false}
             name="12-month exponential moving average"
-            stroke={COLOR.secondary}
+            stroke={COLOR.trend}
             strokeWidth={2}
             type="monotone"
           />

@@ -140,7 +140,7 @@ export default function NetDemand() {
             dataKey="jobPostingsEmaIndexed"
             dot={false}
             name="Job postings index (90-day exponential moving average)"
-            stroke={COLOR.secondary}
+            stroke={COLOR.trend}
             opacity={1 / 3}
             strokeWidth={2}
           />
@@ -169,7 +169,7 @@ export default function NetDemand() {
               dataKey="interestRate"
               dot={false}
               name="Bank of England interest rate"
-              stroke="#f39c12"
+              stroke={COLOR.secondary}
               strokeWidth={2}
               type="stepAfter"
             />

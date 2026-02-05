@@ -58,18 +58,17 @@ export default function JobPostings() {
           <Line
             dataKey="value"
             stroke={COLOR.primary}
-            strokeWidth={2}
+            strokeWidth={1}
             dot={false}
             name="Job postings index"
           />
           <Line
             type="monotone"
             dataKey="ema"
-            stroke={COLOR.secondary}
+            stroke={COLOR.trend}
             strokeWidth={2}
             dot={false}
             name="90-day expoenential moving average"
-            strokeDasharray="5 5"
           />
         </LineChart>
       </ResponsiveContainer>

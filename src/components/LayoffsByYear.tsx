@@ -55,12 +55,12 @@ export default function LayoffsByYear() {
           />
           <Legend />
           <Bar dataKey="trueup" fill={COLOR.negative} name="trueup" />
-          <Bar dataKey="fyi" fill="#9b59b6" name="Layoffs.fyi" />
+          <Bar dataKey="fyi" fill={COLOR.negative2} name="Layoffs.fyi" />
           <Line
             dataKey="average"
             dot={false}
             name="Average"
-            stroke={COLOR.secondary}
+            stroke={COLOR.trend}
             strokeWidth={2}
             type="monotone"
           />

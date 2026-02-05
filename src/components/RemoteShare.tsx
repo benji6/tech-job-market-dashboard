@@ -10,6 +10,7 @@ import {
 } from "recharts";
 import remoteSectorShareData from "../data/remote-sector-share.json";
 import { oneDecimalPlaceFormatter } from "../utils";
+import { COLOR } from "../constants";
 
 const processedData = remoteSectorShareData.map((d) => ({
   date: d.dateString,
@@ -67,7 +68,7 @@ export default function RemoteShare() {
             dataKey="value"
             dot={false}
             name="Percentage of job postings and searches on Indeed mentioning remote/hybrid terms"
-            stroke="#ff7300"
+            stroke={COLOR.primary}
             strokeWidth={2}
           />
         </LineChart>
