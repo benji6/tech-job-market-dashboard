@@ -158,7 +158,7 @@ export default function NetDemand() {
             dataKey="netIndexed"
             dot={false}
             name="Net demand for software engineers (postings index - layoffs index)"
-            stroke="#111"
+            stroke={COLOR.neutral}
             strokeWidth={2}
             type="monotone"
             yAxisId="left"
@@ -174,7 +174,7 @@ export default function NetDemand() {
               type="stepAfter"
             />
           )}
-          <ReferenceLine yAxisId="left" y={0} stroke="#111" />
+          <ReferenceLine yAxisId="left" y={0} stroke={COLOR.neutral} />
         </ComposedChart>
       </ResponsiveContainer>
       <div>

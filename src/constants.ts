@@ -1,6 +1,7 @@
 export const COLOR = {
   negative: "#ff6b6b",
   negative2: "#9b59b6",
+  neutral: "#111",
   positive: "#82ca9d",
   primary: "#8884d8",
   secondary: "#f39c12",
