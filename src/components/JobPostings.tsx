@@ -48,7 +48,7 @@ const seriesLabelByDataKey: Record<string, string> = {
   ema: "Software development trend (90-day exponential moving average)",
   headlineEma: "All UK trend (90-day exponential moving average)",
   emaMinusHeadlineEma:
-    "Software development trend minus headline trend (90-day exponential moving average)",
+    "Software development trend minus all UK trend (90-day exponential moving average)",
 };
 
 const signedIntegerFormatter = Intl.NumberFormat(undefined, {
@@ -166,7 +166,7 @@ export default function JobPostings() {
           checked={subtractHeadline}
           onChange={(e) => setSubtractHeadline(e.target.checked)}
         />{" "}
-        Show relative to all UK (software - headline)
+        Show relative to all UK (software development - all UK)
       </label>
       <details>
         <summary>Sources</summary>
