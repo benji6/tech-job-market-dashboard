@@ -10,15 +10,31 @@ import {
 } from "recharts";
 import { integerFormatter } from "../utils";
 import aggregatedPostingsData from "../aggregatedPostingsData";
+import headlineJobPostingsData from "../data/job-postings-headline-index.json";
 import { COLOR } from "../constants";
+
+const headlineValueByDate = new Map<string, number>(
+  headlineJobPostingsData.map((d) => [d.dateString, d.value]),
+);
+
+const mergedJobPostingsData = aggregatedPostingsData.map((d) => ({
+  ...d,
+  headline: headlineValueByDate.get(d.date),
+}));
+
+const seriesLabelByDataKey: Record<string, string> = {
+  value: "Software development job postings index",
+  ema: "Software development trend (90-day exponential moving average)",
+  headline: "All UK job postings index (headline)",
+};
 
 export default function JobPostings() {
   return (
     <div>
-      <h2>UK software development job postings index</h2>
+      <h2>UK job postings index (software development vs all UK)</h2>
       <ResponsiveContainer width="100%" height={500}>
         <LineChart
-          data={aggregatedPostingsData}
+          data={mergedJobPostingsData}
           margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
         >
           <CartesianGrid strokeDasharray="3 3" />
@@ -49,10 +65,13 @@ export default function JobPostings() {
                 year: "numeric",
               });
             }}
-            formatter={(value, _, props) => [
-              integerFormatter.format(Number(value)),
-              props.dataKey === "value" ? "Job postings index" : "Trend",
-            ]}
+            formatter={(value, _, props) => {
+              const dataKey = String(props.dataKey);
+              return [
+                integerFormatter.format(Number(value)),
+                seriesLabelByDataKey[dataKey] ?? dataKey,
+              ];
+            }}
           />
           <Legend />
           <Line
@@ -60,7 +79,15 @@ export default function JobPostings() {
             stroke={COLOR.primary}
             strokeWidth={1}
             dot={false}
-            name="Job postings index"
+            name={seriesLabelByDataKey.value}
+          />
+          <Line
+            dataKey="headline"
+            stroke={COLOR.secondary}
+            strokeWidth={1}
+            dot={false}
+            strokeDasharray="6 4"
+            name={seriesLabelByDataKey.headline}
           />
           <Line
             type="monotone"
@@ -68,7 +95,7 @@ export default function JobPostings() {
             stroke={COLOR.trend}
             strokeWidth={2}
             dot={false}
-            name="90-day expoenential moving average"
+            name={seriesLabelByDataKey.ema}
           />
         </LineChart>
       </ResponsiveContainer>
