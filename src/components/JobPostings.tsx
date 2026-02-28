@@ -13,19 +13,39 @@ import aggregatedPostingsData from "../aggregatedPostingsData";
 import headlineJobPostingsData from "../data/job-postings-headline-index.json";
 import { COLOR } from "../constants";
 
+const EMA_PERIOD_DAYS = 90;
+const headlineEmaK = 2 / (EMA_PERIOD_DAYS + 1);
+
 const headlineValueByDate = new Map<string, number>(
   headlineJobPostingsData.map((d) => [d.dateString, d.value]),
 );
 
-const mergedJobPostingsData = aggregatedPostingsData.map((d) => ({
+const mergedJobPostingsData: Array<{
+  date: string;
+  value: number;
+  ema: number;
+  headline?: number;
+  headlineEma?: number;
+}> = aggregatedPostingsData.map((d) => ({
   ...d,
   headline: headlineValueByDate.get(d.date),
 }));
+
+for (let i = 0; i < mergedJobPostingsData.length; i++) {
+  const item = mergedJobPostingsData[i];
+  if (typeof item.headline !== "number") continue;
+  item.headlineEma = i
+    ? item.headline * headlineEmaK +
+      (mergedJobPostingsData[i - 1].headlineEma ?? item.headline) *
+        (1 - headlineEmaK)
+    : item.headline;
+}
 
 const seriesLabelByDataKey: Record<string, string> = {
   value: "Software development job postings index",
   ema: "Software development trend (90-day exponential moving average)",
   headline: "All UK job postings index (headline)",
+  headlineEma: "All UK trend (90-day exponential moving average)",
 };
 
 export default function JobPostings() {
@@ -82,12 +102,12 @@ export default function JobPostings() {
             name={seriesLabelByDataKey.value}
           />
           <Line
-            dataKey="headline"
+            dataKey="headlineEma"
             stroke={COLOR.secondary}
             strokeWidth={1}
             dot={false}
             strokeDasharray="6 4"
-            name={seriesLabelByDataKey.headline}
+            name={seriesLabelByDataKey.headlineEma}
           />
           <Line
             type="monotone"
