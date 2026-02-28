@@ -11,7 +11,7 @@ import {
   ReferenceLine,
 } from "recharts";
 import aggregatedMonthlyLayoffData from "../aggregatedMonthlyLayoffData";
-import aggregatedPostingsData from "../aggregatedPostingsData";
+import aggregatedMonthlyPostingsData from "../aggregatedMonthlyPostingsData";
 import interestRatesData from "../data/boe-interest-rates.json";
 import { integerFormatter } from "../utils";
 import { COLOR } from "../constants";
@@ -25,10 +25,9 @@ for (const { date, indexEma3 } of aggregatedMonthlyLayoffData) {
   layoffsByMonthEma[date] = indexEma3;
 }
 
-const interestRatesByDate: Record<string, number> = {};
-for (const { date, value } of interestRatesData) {
-  interestRatesByDate[date] = value;
-}
+const interestRatesByMonth: Record<string, number> = {};
+for (const { date, value } of interestRatesData)
+  interestRatesByMonth[date.slice(0, 7)] = value;
 
 const combinedData: {
   date: string;
@@ -43,8 +42,8 @@ const combinedData: {
 let layoffsEma: number | null = null;
 let lastInterestRate = 0.75;
 
-for (let i = 0; i < aggregatedPostingsData.length; i++) {
-  const item = aggregatedPostingsData[i];
+for (let i = 0; i < aggregatedMonthlyPostingsData.length; i++) {
+  const item = aggregatedMonthlyPostingsData[i];
   const dateKey = item.date.slice(0, 7);
   const layoffs = layoffsByMonth[dateKey];
 
@@ -52,9 +51,8 @@ for (let i = 0; i < aggregatedPostingsData.length; i++) {
 
   const netIndexed = layoffsEma === undefined ? null : item.ema - layoffsEma;
 
-  if (interestRatesByDate[item.date] !== undefined) {
-    lastInterestRate = interestRatesByDate[item.date];
-  }
+  if (interestRatesByMonth[item.date.slice(0, 7)] !== undefined)
+    lastInterestRate = interestRatesByMonth[item.date.slice(0, 7)];
 
   combinedData.push({
     date: item.date,
@@ -114,7 +112,6 @@ export default function NetDemand() {
             labelFormatter={(date) => {
               const d = new Date(date);
               return d.toLocaleDateString("en-GB", {
-                day: "numeric",
                 month: "long",
                 year: "numeric",
               });
@@ -139,7 +136,7 @@ export default function NetDemand() {
             yAxisId="left"
             dataKey="jobPostingsEmaIndexed"
             dot={false}
-            name="Job postings index (90-day exponential moving average)"
+            name="Job postings index (3-month exponential moving average)"
             stroke={COLOR.trend}
             opacity={1 / 3}
             strokeWidth={2}
@@ -147,7 +144,7 @@ export default function NetDemand() {
           <Line
             dataKey="layoffsEmaIndexed"
             dot={false}
-            name="Layoffs index (90-day exponential moving average)"
+            name="Layoffs index (3-month exponential moving average)"
             opacity={1 / 3}
             stroke={COLOR.negative}
             strokeWidth={2}
@@ -179,9 +176,8 @@ export default function NetDemand() {
       </ResponsiveContainer>
       <div>
         <small>
-          Trends are indicated with 90 day exponential moving averages, using
-          all available data sources and indexed to 100 for the start of each
-          series
+          Trends are indicated with exponential moving averages, using all
+          available data sources and indexed to 100 for the start of each series
         </small>
       </div>
       <label style={{ display: "block", marginBlock: "1em" }}>
