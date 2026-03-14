@@ -56,12 +56,14 @@ export default function RemoteShare() {
                 year: "numeric",
               });
             }}
-            formatter={(value?: number) => [
-              value === undefined
-                ? undefined
-                : `${oneDecimalPlaceFormatter.format(value)}%`,
-              "Remote share",
-            ]}
+            formatter={(value) =>
+              value
+                ? [
+                    `${oneDecimalPlaceFormatter.format(Number(value))}%`,
+                    "Remote share",
+                  ]
+                : null
+            }
           />
           <Legend />
           <Line
