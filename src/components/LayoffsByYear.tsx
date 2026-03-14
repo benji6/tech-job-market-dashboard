@@ -66,6 +66,12 @@ export default function LayoffsByYear() {
           />
         </ComposedChart>
       </ResponsiveContainer>
+      <div>
+        <small>
+          2026 data for trueup is forecast, whereas 2026 data for layoffs.fyi is
+          actuals
+        </small>
+      </div>
       <details>
         <summary>Sources</summary>
         <ul>
