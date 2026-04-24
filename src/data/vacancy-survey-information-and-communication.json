@@ -292,6 +292,9 @@
   { "date": "Jun-Aug 2025", "value": 36 },
   { "date": "Jul-Sep 2025", "value": 36 },
   { "date": "Aug-Oct 2025", "value": 35 },
-  { "date": "Sep-Nov 2025", "value": 35 },
-  { "date": "Oct-Dec 2025", "value": 37 }
+  { "date": "Sep-Nov 2025", "value": 34 },
+  { "date": "Oct-Dec 2025", "value": 37 },
+  { "date": "Nov-Jan 2026", "value": 38 },
+  { "date": "Dec-Feb 2026", "value": 40 },
+  { "date": "Jan-Mar 2026", "value": 36 }
 ]
