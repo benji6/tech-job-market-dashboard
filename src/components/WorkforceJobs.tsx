@@ -120,7 +120,7 @@ export default function WorkforceJobs() {
         <ul>
           <li>
             <a
-              href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/workforcejobsbyindustryjobs08"
+              href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/workforcejobsbyindustryjobs02"
               target="_blank"
             >
               ONS Workforce jobs by industry
