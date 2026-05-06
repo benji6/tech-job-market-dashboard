@@ -22748,5 +22748,75 @@
     "sectorName": "Software Development",
     "postingType": "TOTAL",
     "value": 62.2
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-04-25",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 62.31
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-04-26",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 62.29
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-04-27",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 62.23
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-04-28",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 62.13
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-04-29",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.57
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-04-30",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.78
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-05-01",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.88
   }
 ]
