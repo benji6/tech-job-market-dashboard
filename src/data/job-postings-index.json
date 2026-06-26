@@ -23147,7 +23147,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.77
+    "value": 60.79
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -23157,7 +23157,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.71
+    "value": 60.73
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -23167,7 +23167,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.6
+    "value": 60.62
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -23177,7 +23177,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.55
+    "value": 60.57
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -23187,7 +23187,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.53
+    "value": 60.55
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -23197,7 +23197,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.56
+    "value": 60.58
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -23207,7 +23207,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.53
+    "value": 60.55
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -23227,7 +23227,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 60.34
+    "value": 60.33
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -23238,5 +23238,75 @@
     "sectorName": "Software Development",
     "postingType": "TOTAL",
     "value": 60.42
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-06-13",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.48
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-06-14",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.55
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-06-15",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.66
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-06-16",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.75
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-06-17",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.92
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-06-18",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.98
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-06-19",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 61.02
   }
 ]
