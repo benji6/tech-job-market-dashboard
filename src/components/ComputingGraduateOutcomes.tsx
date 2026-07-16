@@ -108,10 +108,29 @@ export default function ComputingGraduateOutcomes() {
         <ul>
           <li>
             <a
+              href="https://www.hesa.ac.uk/news/04-06-2026/sb275-higher-education-graduate-outcomes-statistics/study"
+              target="_blank"
+            >
+              Higher Education Student Statistics: UK - 2023/24 Graduate
+              outcomes
+            </a>
+          </li>
+          <li>
+            <a
               href="https://www.hesa.ac.uk/news/17-07-2025/sb272-higher-education-graduate-outcomes-statistics/study"
               target="_blank"
             >
-              Higher Education Student Statistics: UK - Graduate outcomes
+              Higher Education Student Statistics: UK - 2022/23 Graduate
+              outcomes
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.hesa.ac.uk/news/27-01-2026/sb273-higher-education-student-statistics/qualifications"
+              target="_blank"
+            >
+              Higher Education Student Statistics: UK, 2024/25 - Qualifications
+              achieved
             </a>
           </li>
           <li>
