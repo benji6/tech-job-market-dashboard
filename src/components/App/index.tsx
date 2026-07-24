@@ -9,6 +9,7 @@ import Notes from "../Notes";
 import NetDemand from "../NetDemand";
 import RemoteShare from "../RemoteShare";
 import SeeAlso from "../SeeAlso";
+import SponsoredWorkVisas from "../SponsoredWorkVisas";
 import "./index.css";
 import WorkforceJobs from "../WorkforceJobs";
 
@@ -39,6 +40,7 @@ export default function App() {
         <ComputerProgrammingJobs />
         <WorkforceJobs />
         <ComputingGraduateOutcomes />
+        <SponsoredWorkVisas />
         <RemoteShare />
       </div>
       <Notes />
