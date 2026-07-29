@@ -22,6 +22,10 @@ const headlineValueByDate = new Map<string, number>(
   headlineJobPostingsData.map((d) => [d.dateString, d.value]),
 );
 
+const jobPostingsValueByDate = new Map<string, number>(
+  aggregatedPostingsData.map((d) => [d.date, d.value]),
+);
+
 const mergedJobPostingsData: Array<{
   date: string;
   value: number;
@@ -43,12 +47,37 @@ for (let i = 0; i < mergedJobPostingsData.length; i++) {
     : item.headline;
 }
 
+const dateTwelveMonthsAgo = (date: string) => {
+  const [year, month, day] = date.split("-").map(Number);
+  const lastDayOfTargetMonth = new Date(Date.UTC(year - 1, month, 0));
+  const targetDay = Math.min(day, lastDayOfTargetMonth.getUTCDate());
+
+  return new Date(Date.UTC(year - 1, month - 1, targetDay))
+    .toISOString()
+    .slice(0, 10);
+};
+
+const jobPostingsChangeData = mergedJobPostingsData.map((item) => {
+  const valueTwelveMonthsAgo = jobPostingsValueByDate.get(
+    dateTwelveMonthsAgo(item.date),
+  );
+
+  return {
+    date: item.date,
+    changeVsTwelveMonthsAgo: valueTwelveMonthsAgo
+      ? ((item.value - valueTwelveMonthsAgo) / valueTwelveMonthsAgo) * 100
+      : null,
+  };
+});
+
 const seriesLabelByDataKey: Record<string, string> = {
   value: "Software development job postings index",
   ema: "Software development trend (90-day exponential moving average)",
   headlineEma: "All UK trend (90-day exponential moving average)",
   emaMinusHeadlineEma:
     "Software development trend minus all UK trend (90-day exponential moving average)",
+  changeVsTwelveMonthsAgo:
+    "Software development job postings change vs 12 months ago",
 };
 
 const signedIntegerFormatter = Intl.NumberFormat(undefined, {
@@ -56,17 +85,36 @@ const signedIntegerFormatter = Intl.NumberFormat(undefined, {
   signDisplay: "exceptZero",
 });
 
+const signedPercentageFormatter = new Intl.NumberFormat(undefined, {
+  style: "percent",
+  maximumFractionDigits: 0,
+  signDisplay: "exceptZero",
+});
+
+type JobPostingsChartData = {
+  date: string;
+  value?: number;
+  ema?: number;
+  headline?: number;
+  headlineEma?: number;
+  emaMinusHeadlineEma?: number | null;
+  changeVsTwelveMonthsAgo?: number | null;
+};
+
 export default function JobPostings() {
   const [subtractHeadline, setSubtractHeadline] = useState(false);
+  const [showChangeVsTwelveMonthsAgo, setShowChangeVsTwelveMonthsAgo] =
+    useState(false);
 
-  const chartData = useMemo(() => {
+  const chartData: JobPostingsChartData[] = useMemo(() => {
+    if (showChangeVsTwelveMonthsAgo) return jobPostingsChangeData;
     if (!subtractHeadline) return mergedJobPostingsData;
     return mergedJobPostingsData.map((d) => ({
       ...d,
       emaMinusHeadlineEma:
         typeof d.headlineEma === "number" ? d.ema - d.headlineEma : null,
     }));
-  }, [subtractHeadline]);
+  }, [showChangeVsTwelveMonthsAgo, subtractHeadline]);
 
   return (
     <div>
@@ -90,10 +138,20 @@ export default function JobPostings() {
           />
           <YAxis
             label={{
-              value: subtractHeadline ? "Index difference" : "Index",
+              value: showChangeVsTwelveMonthsAgo
+                ? "Change vs 12 months ago"
+                : subtractHeadline
+                  ? "Index difference"
+                  : "Index",
               angle: -90,
               dx: -30,
             }}
+            tickFormatter={
+              showChangeVsTwelveMonthsAgo
+                ? (value) =>
+                    signedPercentageFormatter.format(Number(value) / 100)
+                : undefined
+            }
           />
           <Tooltip
             labelFormatter={(date) => {
@@ -107,17 +165,36 @@ export default function JobPostings() {
             formatter={(value, _, props) => {
               const dataKey = String(props.dataKey);
               if (value === null || value === undefined) return [value, ""];
-              const formatter = subtractHeadline
-                ? signedIntegerFormatter
-                : integerFormatter;
+              const formatter = showChangeVsTwelveMonthsAgo
+                ? signedPercentageFormatter
+                : subtractHeadline
+                  ? signedIntegerFormatter
+                  : integerFormatter;
               return [
-                formatter.format(Number(value)),
+                formatter.format(
+                  showChangeVsTwelveMonthsAgo
+                    ? Number(value) / 100
+                    : Number(value),
+                ),
                 seriesLabelByDataKey[dataKey] ?? dataKey,
               ];
             }}
           />
           <Legend />
-          {subtractHeadline ? (
+          {showChangeVsTwelveMonthsAgo ? (
+            <>
+              <Line
+                type="monotone"
+                dataKey="changeVsTwelveMonthsAgo"
+                stroke={COLOR.trend}
+                strokeWidth={2}
+                dot={false}
+                name={seriesLabelByDataKey.changeVsTwelveMonthsAgo}
+                connectNulls
+              />
+              <ReferenceLine y={0} stroke={COLOR.neutral} />
+            </>
+          ) : subtractHeadline ? (
             <>
               <Line
                 type="monotone"
@@ -165,8 +242,17 @@ export default function JobPostings() {
           type="checkbox"
           checked={subtractHeadline}
           onChange={(e) => setSubtractHeadline(e.target.checked)}
+          disabled={showChangeVsTwelveMonthsAgo}
         />{" "}
         Show relative to all UK (software development - all UK)
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          checked={showChangeVsTwelveMonthsAgo}
+          onChange={(e) => setShowChangeVsTwelveMonthsAgo(e.target.checked)}
+        />{" "}
+        Show change vs 12 months ago
       </label>
       <details>
         <summary>Sources</summary>

@@ -6,6 +6,7 @@ import {
   CartesianGrid,
   Tooltip,
   Legend,
+  ReferenceLine,
   ResponsiveContainer,
 } from "recharts";
 import { useState } from "react";
@@ -26,9 +27,35 @@ for (let i = 0; i < vacancySurveyInformationAndCommunication.length; i++) {
   });
 }
 
+const vacancyChangeData = vacancyData.map((item, index) => {
+  const valueTwelveMonthsAgo = vacancyData[index - 12]?.value;
+
+  return {
+    date: item.date,
+    changeVsTwelveMonthsAgo: valueTwelveMonthsAgo
+      ? ((item.value - valueTwelveMonthsAgo) / valueTwelveMonthsAgo) * 100
+      : null,
+  };
+});
+
+const signedPercentageFormatter = new Intl.NumberFormat(undefined, {
+  style: "percent",
+  maximumFractionDigits: 0,
+  signDisplay: "exceptZero",
+});
+
+type VacancyChartData = {
+  date: string;
+  value?: number;
+  ema?: number;
+  changeVsTwelveMonthsAgo?: number | null;
+};
+
 export default function Vacancies() {
   const [showFullHistory, setShowFullHistory] = useState(false);
   const [indexToFeb2020, setIndexToFeb2020] = useState(true);
+  const [showChangeVsTwelveMonthsAgo, setShowChangeVsTwelveMonthsAgo] =
+    useState(false);
 
   const feb2020Value =
     vacancyData.find((item) => item.date === "Dec-Feb 2020")?.value || 1;
@@ -45,50 +72,89 @@ export default function Vacancies() {
         processedData.findIndex((item) => item.date === "Dec-Feb 2020"),
       );
 
+  const changeDisplayData = showFullHistory
+    ? vacancyChangeData
+    : vacancyChangeData.slice(
+        vacancyChangeData.findIndex((item) => item.date === "Dec-Feb 2020"),
+      );
+
+  const chartData: VacancyChartData[] = showChangeVsTwelveMonthsAgo
+    ? changeDisplayData
+    : displayData;
+
   return (
     <div>
       <h2>UK information and communication vacancies</h2>
       <ResponsiveContainer width="100%" height={500}>
         <LineChart
-          data={displayData}
+          data={chartData}
           margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="date" minTickGap={50} />
           <YAxis
             label={{
-              value: indexToFeb2020 ? "Index (Feb 2020 = 100)" : "Vacancies",
+              value: showChangeVsTwelveMonthsAgo
+                ? "Change vs 12 months ago"
+                : indexToFeb2020
+                  ? "Index (Feb 2020 = 100)"
+                  : "Vacancies",
               angle: -90,
               dx: -30,
             }}
-            tickFormatter={(value) => compactIntegerFormatter.format(value)}
+            tickFormatter={(value) =>
+              showChangeVsTwelveMonthsAgo
+                ? signedPercentageFormatter.format(Number(value) / 100)
+                : compactIntegerFormatter.format(value)
+            }
           />
           <Tooltip
             formatter={(value, _, props) => [
-              compactIntegerFormatter.format(Number(value)),
-              props.dataKey === "value"
-                ? indexToFeb2020
-                  ? "Index"
-                  : "Vacancies"
-                : "Trend",
+              showChangeVsTwelveMonthsAgo
+                ? signedPercentageFormatter.format(Number(value) / 100)
+                : compactIntegerFormatter.format(Number(value)),
+              showChangeVsTwelveMonthsAgo
+                ? "Vacancy change"
+                : props.dataKey === "value"
+                  ? indexToFeb2020
+                    ? "Index"
+                    : "Vacancies"
+                  : "Trend",
             ]}
           />
           <Legend />
-          <Line
-            dataKey="value"
-            stroke={COLOR.primary}
-            strokeWidth={1}
-            dot={false}
-            name={indexToFeb2020 ? "Index" : "Vacancies"}
-          />
-          <Line
-            type="monotone"
-            dataKey="ema"
-            stroke={COLOR.trend}
-            strokeWidth={2}
-            dot={false}
-            name="90 day exponential moving average"
-          />
+          {showChangeVsTwelveMonthsAgo ? (
+            <>
+              <ReferenceLine y={0} stroke={COLOR.neutral} />
+              <Line
+                dataKey="changeVsTwelveMonthsAgo"
+                stroke={COLOR.secondary}
+                strokeWidth={2}
+                dot={false}
+                name="Change vs 12 months ago"
+                type="monotone"
+                connectNulls
+              />
+            </>
+          ) : (
+            <>
+              <Line
+                dataKey="value"
+                stroke={COLOR.primary}
+                strokeWidth={1}
+                dot={false}
+                name={indexToFeb2020 ? "Index" : "Vacancies"}
+              />
+              <Line
+                type="monotone"
+                dataKey="ema"
+                stroke={COLOR.trend}
+                strokeWidth={2}
+                dot={false}
+                name="90 day exponential moving average"
+              />
+            </>
+          )}
         </LineChart>
       </ResponsiveContainer>
       <label>
@@ -104,8 +170,17 @@ export default function Vacancies() {
           type="checkbox"
           checked={indexToFeb2020}
           onChange={(e) => setIndexToFeb2020(e.target.checked)}
+          disabled={showChangeVsTwelveMonthsAgo}
         />
         Index (Feb 2020 = 100)
+      </label>
+      <label>
+        <input
+          type="checkbox"
+          checked={showChangeVsTwelveMonthsAgo}
+          onChange={(e) => setShowChangeVsTwelveMonthsAgo(e.target.checked)}
+        />
+        Show change vs 12 months ago
       </label>
       <details>
         <summary>Sources</summary>
