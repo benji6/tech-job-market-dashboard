@@ -19038,5 +19038,61 @@
     "countryName": "United Kingdom",
     "postingType": "TOTAL",
     "value": 69.73
+  },
+  {
+    "__typename": "HiringLabNationalPosting",
+    "dateString": "2026-08-08",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "postingType": "TOTAL",
+    "value": 70.04
+  },
+  {
+    "__typename": "HiringLabNationalPosting",
+    "dateString": "2026-08-09",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "postingType": "TOTAL",
+    "value": 70.32
+  },
+  {
+    "__typename": "HiringLabNationalPosting",
+    "dateString": "2026-08-10",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "postingType": "TOTAL",
+    "value": 70.6
+  },
+  {
+    "__typename": "HiringLabNationalPosting",
+    "dateString": "2026-08-11",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "postingType": "TOTAL",
+    "value": 70.82
+  },
+  {
+    "__typename": "HiringLabNationalPosting",
+    "dateString": "2026-08-12",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "postingType": "TOTAL",
+    "value": 71.08
+  },
+  {
+    "__typename": "HiringLabNationalPosting",
+    "dateString": "2026-08-13",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "postingType": "TOTAL",
+    "value": 71.27
+  },
+  {
+    "__typename": "HiringLabNationalPosting",
+    "dateString": "2026-08-14",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "postingType": "TOTAL",
+    "value": 71.5
   }
 ]
