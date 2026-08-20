@@ -23798,5 +23798,75 @@
     "sectorName": "Software Development",
     "postingType": "TOTAL",
     "value": 59.89
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-08-08",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.03
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-08-09",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.12
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-08-10",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.24
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-08-11",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.32
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-08-12",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.41
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-08-13",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.58
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-08-14",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.67
   }
 ]
