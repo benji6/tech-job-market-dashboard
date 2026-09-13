@@ -9,7 +9,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { useState } from "react";
-import { compactIntegerFormatter } from "../utils";
+import { compactIntegerFormatter, formatDate } from "../utils";
 import workforceJobsInformationAndCommunication from "../data/workforce-jobs-information-and-communication.json";
 import { COLOR } from "../constants";
 
@@ -71,14 +71,13 @@ export default function WorkforceJobs() {
             tickFormatter={(value) => compactIntegerFormatter.format(value)}
           />
           <Tooltip
-            labelFormatter={(date) => {
-              const d = new Date(date);
-              return d.toLocaleDateString("en-GB", {
+            labelFormatter={(date) =>
+              formatDate(date, {
                 day: "numeric",
                 month: "long",
                 year: "numeric",
-              });
-            }}
+              })
+            }
             formatter={(value, _, props) => [
               compactIntegerFormatter.format(Number(value)),
               props.dataKey === "value"

@@ -9,7 +9,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import remoteSectorShareData from "../data/remote-sector-share.json";
-import { oneDecimalPlaceFormatter } from "../utils";
+import { formatDate, oneDecimalPlaceFormatter } from "../utils";
 import { COLOR } from "../constants";
 
 const processedData = remoteSectorShareData.map((d) => ({
@@ -48,14 +48,13 @@ export default function RemoteShare() {
             tickFormatter={(value) => `${value}%`}
           />
           <Tooltip
-            labelFormatter={(date) => {
-              const d = new Date(date);
-              return d.toLocaleDateString("en-GB", {
+            labelFormatter={(date) =>
+              formatDate(date, {
                 day: "numeric",
                 month: "long",
                 year: "numeric",
-              });
-            }}
+              })
+            }
             formatter={(value) =>
               value
                 ? [

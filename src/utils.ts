@@ -22,6 +22,22 @@ export const integerPercentageFormatter = Intl.NumberFormat(undefined, {
   maximumFractionDigits: 0,
 });
 
+export const formatDate = (
+  value: unknown,
+  options: Intl.DateTimeFormatOptions,
+) => {
+  if (
+    typeof value !== "string" &&
+    typeof value !== "number" &&
+    !(value instanceof Date)
+  ) {
+    return "";
+  }
+
+  const date = value instanceof Date ? value : new Date(value);
+  return new Intl.DateTimeFormat("en-GB", options).format(date);
+};
+
 export const sum = (xs: number[]): number => {
   let total = 0;
   for (const x of xs) total += x;

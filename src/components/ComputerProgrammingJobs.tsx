@@ -8,7 +8,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { compactIntegerFormatter } from "../utils";
+import { compactIntegerFormatter, formatDate } from "../utils";
 import computerProgrammingJobs from "../data/computer-programming-jobs.json";
 import { COLOR } from "../constants";
 
@@ -80,13 +80,12 @@ export default function ComputerProgrammingJobs() {
             }
           />
           <Tooltip
-            labelFormatter={(date) => {
-              const d = new Date(date);
-              return d.toLocaleDateString("en-GB", {
+            labelFormatter={(date) =>
+              formatDate(date, {
                 month: "long",
                 year: "numeric",
-              });
-            }}
+              })
+            }
             formatter={(value) => [
               indexToMarch2020
                 ? Number(value).toFixed(1)

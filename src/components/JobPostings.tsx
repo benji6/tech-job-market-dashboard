@@ -10,7 +10,7 @@ import {
   ResponsiveContainer,
   ReferenceLine,
 } from "recharts";
-import { integerFormatter } from "../utils";
+import { formatDate, integerFormatter } from "../utils";
 import aggregatedPostingsData from "../aggregatedPostingsData";
 import headlineJobPostingsData from "../data/job-postings-headline-index.json";
 import { COLOR } from "../constants";
@@ -154,14 +154,13 @@ export default function JobPostings() {
             }
           />
           <Tooltip
-            labelFormatter={(date) => {
-              const d = new Date(date);
-              return d.toLocaleDateString("en-GB", {
+            labelFormatter={(date) =>
+              formatDate(date, {
                 day: "numeric",
                 month: "long",
                 year: "numeric",
-              });
-            }}
+              })
+            }
             formatter={(value, _, props) => {
               const dataKey = String(props.dataKey);
               if (value === null || value === undefined) return [value, ""];

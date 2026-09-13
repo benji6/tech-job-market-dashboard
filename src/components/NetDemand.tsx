@@ -13,7 +13,7 @@ import {
 import aggregatedMonthlyLayoffData from "../aggregatedMonthlyLayoffData";
 import aggregatedMonthlyPostingsData from "../aggregatedMonthlyPostingsData";
 import interestRatesData from "../data/boe-interest-rates.json";
-import { integerFormatter } from "../utils";
+import { formatDate, integerFormatter } from "../utils";
 import { COLOR } from "../constants";
 
 const layoffsByMonth: Record<string, number> = {};
@@ -109,13 +109,12 @@ export default function NetDemand() {
             />
           )}
           <Tooltip
-            labelFormatter={(date) => {
-              const d = new Date(date);
-              return d.toLocaleDateString("en-GB", {
+            labelFormatter={(date) =>
+              formatDate(date, {
                 month: "long",
                 year: "numeric",
-              });
-            }}
+              })
+            }
             formatter={(value, _, props) => {
               const dataKey = props.dataKey as string;
               let label = "";
