@@ -11677,7 +11677,7 @@
     "countryCode": "GB",
     "countryName": "United Kingdom",
     "postingType": "TOTAL",
-    "value": 106.15
+    "value": 106.16
   },
   {
     "__typename": "HiringLabNationalPosting",
@@ -11701,7 +11701,7 @@
     "countryCode": "GB",
     "countryName": "United Kingdom",
     "postingType": "TOTAL",
-    "value": 105.98
+    "value": 105.99
   },
   {
     "__typename": "HiringLabNationalPosting",
@@ -11717,7 +11717,7 @@
     "countryCode": "GB",
     "countryName": "United Kingdom",
     "postingType": "TOTAL",
-    "value": 105.62
+    "value": 105.63
   },
   {
     "__typename": "HiringLabNationalPosting",
@@ -17949,7 +17949,7 @@
     "countryCode": "GB",
     "countryName": "United Kingdom",
     "postingType": "TOTAL",
-    "value": 75.03
+    "value": 75.02
   },
   {
     "__typename": "HiringLabNationalPosting",
@@ -17965,7 +17965,7 @@
     "countryCode": "GB",
     "countryName": "United Kingdom",
     "postingType": "TOTAL",
-    "value": 74.56
+    "value": 74.55
   },
   {
     "__typename": "HiringLabNationalPosting",
@@ -17973,7 +17973,7 @@
     "countryCode": "GB",
     "countryName": "United Kingdom",
     "postingType": "TOTAL",
-    "value": 74.32
+    "value": 74.31
   },
   {
     "__typename": "HiringLabNationalPosting",
@@ -18061,7 +18061,7 @@
     "countryCode": "GB",
     "countryName": "United Kingdom",
     "postingType": "TOTAL",
-    "value": 71.77
+    "value": 71.76
   },
   {
     "__typename": "HiringLabNationalPosting",
@@ -18093,7 +18093,7 @@
     "countryCode": "GB",
     "countryName": "United Kingdom",
     "postingType": "TOTAL",
-    "value": 70.98
+    "value": 70.97
   },
   {
     "__typename": "HiringLabNationalPosting",
@@ -18125,7 +18125,7 @@
     "countryCode": "GB",
     "countryName": "United Kingdom",
     "postingType": "TOTAL",
-    "value": 70.51
+    "value": 70.5
   },
   {
     "__typename": "HiringLabNationalPosting",
@@ -18133,7 +18133,7 @@
     "countryCode": "GB",
     "countryName": "United Kingdom",
     "postingType": "TOTAL",
-    "value": 70.41
+    "value": 70.4
   },
   {
     "__typename": "HiringLabNationalPosting",
@@ -18149,7 +18149,7 @@
     "countryCode": "GB",
     "countryName": "United Kingdom",
     "postingType": "TOTAL",
-    "value": 70.19
+    "value": 70.18
   },
   {
     "__typename": "HiringLabNationalPosting",
@@ -18173,7 +18173,7 @@
     "countryCode": "GB",
     "countryName": "United Kingdom",
     "postingType": "TOTAL",
-    "value": 70.26
+    "value": 70.25
   },
   {
     "__typename": "HiringLabNationalPosting",
@@ -18285,7 +18285,7 @@
     "countryCode": "GB",
     "countryName": "United Kingdom",
     "postingType": "TOTAL",
-    "value": 70.61
+    "value": 70.6
   },
   {
     "__typename": "HiringLabNationalPosting",
@@ -18309,7 +18309,7 @@
     "countryCode": "GB",
     "countryName": "United Kingdom",
     "postingType": "TOTAL",
-    "value": 70.83
+    "value": 70.82
   },
   {
     "__typename": "HiringLabNationalPosting",
@@ -18413,7 +18413,7 @@
     "countryCode": "GB",
     "countryName": "United Kingdom",
     "postingType": "TOTAL",
-    "value": 71.56
+    "value": 71.55
   },
   {
     "__typename": "HiringLabNationalPosting",
@@ -19262,5 +19262,61 @@
     "countryName": "United Kingdom",
     "postingType": "TOTAL",
     "value": 71.58
+  },
+  {
+    "__typename": "HiringLabNationalPosting",
+    "dateString": "2026-09-05",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "postingType": "TOTAL",
+    "value": 71.39
+  },
+  {
+    "__typename": "HiringLabNationalPosting",
+    "dateString": "2026-09-06",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "postingType": "TOTAL",
+    "value": 71.21
+  },
+  {
+    "__typename": "HiringLabNationalPosting",
+    "dateString": "2026-09-07",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "postingType": "TOTAL",
+    "value": 71.05
+  },
+  {
+    "__typename": "HiringLabNationalPosting",
+    "dateString": "2026-09-08",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "postingType": "TOTAL",
+    "value": 71.25
+  },
+  {
+    "__typename": "HiringLabNationalPosting",
+    "dateString": "2026-09-09",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "postingType": "TOTAL",
+    "value": 71.39
+  },
+  {
+    "__typename": "HiringLabNationalPosting",
+    "dateString": "2026-09-10",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "postingType": "TOTAL",
+    "value": 71.6
+  },
+  {
+    "__typename": "HiringLabNationalPosting",
+    "dateString": "2026-09-11",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "postingType": "TOTAL",
+    "value": 71.8
   }
 ]
