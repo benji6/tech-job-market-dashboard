@@ -22467,7 +22467,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 64.25
+    "value": 64.24
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -22507,7 +22507,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 64.22
+    "value": 64.21
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -22527,7 +22527,7 @@
     "sectorCode": "techsoftware",
     "sectorName": "Software Development",
     "postingType": "TOTAL",
-    "value": 63.66
+    "value": 63.65
   },
   {
     "__typename": "HiringLabSectoralPosting",
@@ -24078,5 +24078,75 @@
     "sectorName": "Software Development",
     "postingType": "TOTAL",
     "value": 60.31
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-09-05",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.27
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-09-06",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.25
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-09-07",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.2
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-09-08",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.36
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-09-09",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.41
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-09-10",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.51
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-09-11",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.49
   }
 ]
