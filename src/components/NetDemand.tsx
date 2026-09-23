@@ -39,7 +39,6 @@ const combinedData: {
   interestRate: number | null;
 }[] = [];
 
-let layoffsEma: number | null = null;
 let lastInterestRate = 0.75;
 
 for (let i = 0; i < aggregatedMonthlyPostingsData.length; i++) {
@@ -47,7 +46,7 @@ for (let i = 0; i < aggregatedMonthlyPostingsData.length; i++) {
   const dateKey = item.date.slice(0, 7);
   const layoffs = layoffsByMonth[dateKey];
 
-  layoffsEma = layoffsByMonthEma[dateKey];
+  const layoffsEma = layoffsByMonthEma[dateKey];
 
   const netIndexed = layoffsEma === undefined ? null : item.ema - layoffsEma;
 
