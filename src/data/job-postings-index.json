@@ -24428,5 +24428,75 @@
     "sectorName": "Software Development",
     "postingType": "TOTAL",
     "value": 59.21
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-10-10",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 59.36
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-10-11",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 59.49
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-10-12",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 59.67
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-10-13",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 59.85
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-10-14",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-10-15",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.26
+  },
+  {
+    "__typename": "HiringLabSectoralPosting",
+    "dateString": "2026-10-16",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "sectorCode": "techsoftware",
+    "sectorName": "Software Development",
+    "postingType": "TOTAL",
+    "value": 60.4
   }
 ]
