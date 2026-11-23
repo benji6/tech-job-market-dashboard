@@ -1,7 +1,5 @@
 import jobPostingsData from "./data/job-postings-index.json";
-
-const EMA_PERIOD_MONTHS = 3;
-const k = 2 / (EMA_PERIOD_MONTHS + 1);
+import { calculateEma } from "./exponentialMovingAverage";
 
 const sumByMonth = new Map<string, number>();
 const countByMonth = new Map<string, number>();
@@ -28,9 +26,11 @@ for (let i = 0; i < monthKeys.length; i++) {
   aggregatedMonthlyPostingsData.push({
     date: `${monthKey}-01`,
     value,
-    ema: i
-      ? value * k + aggregatedMonthlyPostingsData[i - 1].ema * (1 - k)
-      : value,
+    ema: calculateEma(
+      value,
+      `${monthKey}-01`,
+      aggregatedMonthlyPostingsData[i - 1],
+    ),
   });
 }
 

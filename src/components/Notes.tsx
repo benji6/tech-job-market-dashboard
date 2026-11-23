@@ -4,6 +4,12 @@ export default function Notes() {
       <h2>Notes</h2>
       <ul>
         <li>
+          All exponential moving averages use a 30-day half-life, with alpha = 1
+          - 2^(-elapsed days / 30). Each average starts at its first observed
+          value. Monthly observations are dated to the first day of the month;
+          vacancy survey periods use their ending month.
+        </li>
+        <li>
           <a
             href="https://github.com/benji6/tech-job-market-dashboard"
             target="_blank"

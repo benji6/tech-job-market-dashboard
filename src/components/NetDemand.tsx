@@ -21,8 +21,8 @@ for (const { date, index } of aggregatedMonthlyLayoffData) {
   layoffsByMonth[date] = index;
 }
 const layoffsByMonthEma: Record<string, number> = {};
-for (const { date, indexEma3 } of aggregatedMonthlyLayoffData) {
-  layoffsByMonthEma[date] = indexEma3;
+for (const { date, indexEma } of aggregatedMonthlyLayoffData) {
+  layoffsByMonthEma[date] = indexEma;
 }
 
 const interestRatesByMonth: Record<string, number> = {};
@@ -118,9 +118,9 @@ export default function NetDemand() {
               const dataKey = props.dataKey as string;
               let label = "";
               if (dataKey === "jobPostingsEmaIndexed") {
-                label = "Job postings";
+                label = "Job postings (30-day half-life)";
               } else if (dataKey === "layoffsEmaIndexed") {
-                label = "Layoffs";
+                label = "Layoffs (30-day half-life)";
               } else if (dataKey === "netIndexed") {
                 label = "Net (postings - layoffs)";
               } else if (dataKey === "interestRate") {
@@ -134,7 +134,7 @@ export default function NetDemand() {
             yAxisId="left"
             dataKey="jobPostingsEmaIndexed"
             dot={false}
-            name="Job postings index (3-month exponential moving average)"
+            name="Job postings index (exponential moving average, 30-day half-life)"
             stroke={COLOR.trend}
             opacity={1 / 3}
             strokeWidth={2}
@@ -142,7 +142,7 @@ export default function NetDemand() {
           <Line
             dataKey="layoffsEmaIndexed"
             dot={false}
-            name="Layoffs index (3-month exponential moving average)"
+            name="Layoffs index (exponential moving average, 30-day half-life)"
             opacity={1 / 3}
             stroke={COLOR.negative}
             strokeWidth={2}
@@ -174,8 +174,9 @@ export default function NetDemand() {
       </ResponsiveContainer>
       <div>
         <small>
-          Trends are indicated with exponential moving averages, using all
-          available data sources and indexed to 100 for the start of each series
+          Trends use exponential moving averages with a 30-day half-life, using
+          all available data sources and indexed to 100 for the start of each
+          series
         </small>
       </div>
       <label style={{ display: "block", marginBlock: "1em" }}>

@@ -14,9 +14,7 @@ import { formatDate, integerFormatter } from "../utils";
 import aggregatedPostingsData from "../aggregatedPostingsData";
 import headlineJobPostingsData from "../data/job-postings-headline-index.json";
 import { COLOR } from "../constants";
-
-const EMA_PERIOD_DAYS = 90;
-const headlineEmaK = 2 / (EMA_PERIOD_DAYS + 1);
+import { calculateEma } from "../exponentialMovingAverage";
 
 const headlineValueByDate = new Map<string, number>(
   headlineJobPostingsData.map((d) => [d.dateString, d.value]),
@@ -37,14 +35,12 @@ const mergedJobPostingsData: Array<{
   headline: headlineValueByDate.get(d.date),
 }));
 
+let previousHeadline: { date: string; ema: number } | undefined;
 for (let i = 0; i < mergedJobPostingsData.length; i++) {
   const item = mergedJobPostingsData[i];
   if (typeof item.headline !== "number") continue;
-  item.headlineEma = i
-    ? item.headline * headlineEmaK +
-      (mergedJobPostingsData[i - 1].headlineEma ?? item.headline) *
-        (1 - headlineEmaK)
-    : item.headline;
+  item.headlineEma = calculateEma(item.headline, item.date, previousHeadline);
+  previousHeadline = { date: item.date, ema: item.headlineEma };
 }
 
 const dateTwelveMonthsAgo = (date: string) => {
@@ -72,10 +68,10 @@ const jobPostingsChangeData = mergedJobPostingsData.map((item) => {
 
 const seriesLabelByDataKey: Record<string, string> = {
   value: "Software development job postings index",
-  ema: "Software development trend (90-day exponential moving average)",
-  headlineEma: "All UK trend (90-day exponential moving average)",
+  ema: "Software development trend (exponential moving average, 30-day half-life)",
+  headlineEma: "All UK trend (exponential moving average, 30-day half-life)",
   emaMinusHeadlineEma:
-    "Software development trend minus all UK trend (90-day exponential moving average)",
+    "Software development trend minus all UK trend (exponential moving averages, 30-day half-life)",
   changeVsTwelveMonthsAgo:
     "Software development job postings change vs 12 months ago",
 };

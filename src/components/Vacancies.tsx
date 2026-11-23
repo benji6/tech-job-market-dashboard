@@ -13,17 +13,37 @@ import { useState } from "react";
 import { compactIntegerFormatter } from "../utils";
 import vacancySurveyInformationAndCommunication from "../data/vacancy-survey-information-and-communication.json";
 import { COLOR } from "../constants";
+import { calculateEma } from "../exponentialMovingAverage";
 
-const EMA_PERIOD = 3;
-const k = 2 / (EMA_PERIOD + 1);
+const months = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
 const vacancyData: { date: string; value: number; ema: number }[] = [];
+let previousVacancy: { date: string; ema: number } | undefined;
 for (let i = 0; i < vacancySurveyInformationAndCommunication.length; i++) {
   const item = vacancySurveyInformationAndCommunication[i];
   const value = item.value * 1e3;
+  const month = months.indexOf(item.date.slice(4, 7));
+  const date = new Date(
+    Date.UTC(Number(item.date.slice(-4)), month, 1),
+  ).toISOString();
+  const ema = calculateEma(value, date, previousVacancy);
+  previousVacancy = { date, ema };
   vacancyData.push({
     date: item.date,
     value,
-    ema: i ? value * k + vacancyData[i - 1].ema * (1 - k) : value,
+    ema,
   });
 }
 
@@ -119,7 +139,7 @@ export default function Vacancies() {
                   ? indexToFeb2020
                     ? "Index"
                     : "Vacancies"
-                  : "Trend",
+                  : "Trend (30-day half-life)",
             ]}
           />
           <Legend />
@@ -151,7 +171,7 @@ export default function Vacancies() {
                 stroke={COLOR.trend}
                 strokeWidth={2}
                 dot={false}
-                name="90 day exponential moving average"
+                name="Exponential moving average (30-day half-life)"
               />
             </>
           )}

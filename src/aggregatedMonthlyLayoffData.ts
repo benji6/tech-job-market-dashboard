@@ -1,6 +1,7 @@
 import layoffsMonthlyTrueupData from "./data/layoffs-monthly-trueup.json";
 import layoffsMonthlyFyiData from "./data/layoffs-monthly-fyi.json";
 import { defaultDict, sum } from "./utils";
+import { calculateEma } from "./exponentialMovingAverage";
 
 const layoffsFyiByMonth = defaultDict(() => 0);
 for (const { date, value } of layoffsMonthlyFyiData)
@@ -21,16 +22,13 @@ for (const k of Object.keys(monthlyTrueupByDate))
 const trueupScalingFactorForAverage =
   totalFyiLayoffsOverlappingWithTrueupPeriod / totalTrueupLayoffs;
 
-const k3 = 2 / (3 + 1);
-const k12 = 2 / (12 + 1);
 let baseValueForIndex;
 const aggregatedMonthlyLayoffData: {
   date: string;
-  ema12: number;
-  ema3: number;
+  ema: number;
   fyi: number;
   index: number;
-  indexEma3: number;
+  indexEma: number;
   normalizedAverage: number;
   trueup: number | undefined;
 }[] = [];
@@ -43,22 +41,17 @@ for (let i = 0; i < layoffsMonthlyFyiData.length; i++) {
       ? item.value
       : (item.value + trueup * trueupScalingFactorForAverage) / 2;
   if (baseValueForIndex === undefined) baseValueForIndex = normalizedAverage;
-  const lastEma3 = i ? aggregatedMonthlyLayoffData[i - 1].ema3 : undefined;
-  const lastEma12 = i ? aggregatedMonthlyLayoffData[i - 1].ema12 : undefined;
-  const ema3 =
-    lastEma3 === undefined
-      ? normalizedAverage
-      : normalizedAverage * k3 + lastEma3 * (1 - k3);
+  const ema = calculateEma(
+    normalizedAverage,
+    item.date,
+    aggregatedMonthlyLayoffData[i - 1],
+  );
   aggregatedMonthlyLayoffData.push({
     date: item.date,
-    ema3,
-    ema12:
-      lastEma12 === undefined
-        ? normalizedAverage
-        : normalizedAverage * k12 + lastEma12 * (1 - k12),
+    ema,
     fyi,
     index: (normalizedAverage / baseValueForIndex) * 100,
-    indexEma3: (ema3 / baseValueForIndex) * 100,
+    indexEma: (ema / baseValueForIndex) * 100,
     normalizedAverage,
     trueup,
   });
