@@ -5,11 +5,12 @@ export const calculateEma = (
   value: number,
   date: string,
   previous?: { date: string; ema: number },
+  halfLifeDays = HALF_LIFE_DAYS,
 ): number => {
   if (!previous) return value;
 
   const elapsedDays =
     (Date.parse(date) - Date.parse(previous.date)) / MILLISECONDS_PER_DAY;
-  const alpha = 1 - 2 ** (-elapsedDays / HALF_LIFE_DAYS);
+  const alpha = 1 - 2 ** (-elapsedDays / halfLifeDays);
   return value * alpha + previous.ema * (1 - alpha);
 };

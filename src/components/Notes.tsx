@@ -4,10 +4,11 @@ export default function Notes() {
       <h2>Notes</h2>
       <ul>
         <li>
-          All exponential moving averages use a 30-day half-life, with alpha = 1
-          - 2^(-elapsed days / 30). Each average starts at its first observed
-          value. Monthly observations are dated to the first day of the month;
-          vacancy survey periods use their ending month.
+          Layoffs use a 3-month (90-day) half-life; other exponential moving
+          averages use a 30-day half-life, with alpha = 1 - 2^(-elapsed days /
+          half-life days). Each average starts at its first observed value.
+          Monthly observations are dated to the first day of the month; vacancy
+          survey periods use their ending month.
         </li>
         <li>
           <a

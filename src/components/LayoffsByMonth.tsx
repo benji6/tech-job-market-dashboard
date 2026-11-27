@@ -39,7 +39,7 @@ export default function LayoffsByMonth() {
                 ? "trueup"
                 : props.dataKey === "fyi"
                   ? "Layoffs.fyi"
-                  : "Trend (30-day half-life)",
+                  : "Trend (3-month half-life)",
             ]}
           />
           <Legend />
@@ -48,7 +48,7 @@ export default function LayoffsByMonth() {
           <Line
             dataKey="ema"
             dot={false}
-            name="Exponential moving average (30-day half-life)"
+            name="Exponential moving average (3-month half-life)"
             stroke={COLOR.trend}
             strokeWidth={2}
             type="monotone"

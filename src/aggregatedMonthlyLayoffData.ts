@@ -45,6 +45,7 @@ for (let i = 0; i < layoffsMonthlyFyiData.length; i++) {
     normalizedAverage,
     item.date,
     aggregatedMonthlyLayoffData[i - 1],
+    90,
   );
   aggregatedMonthlyLayoffData.push({
     date: item.date,

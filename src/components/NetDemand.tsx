@@ -120,7 +120,7 @@ export default function NetDemand() {
               if (dataKey === "jobPostingsEmaIndexed") {
                 label = "Job postings (30-day half-life)";
               } else if (dataKey === "layoffsEmaIndexed") {
-                label = "Layoffs (30-day half-life)";
+                label = "Layoffs (3-month half-life)";
               } else if (dataKey === "netIndexed") {
                 label = "Net (postings - layoffs)";
               } else if (dataKey === "interestRate") {
@@ -142,7 +142,7 @@ export default function NetDemand() {
           <Line
             dataKey="layoffsEmaIndexed"
             dot={false}
-            name="Layoffs index (exponential moving average, 30-day half-life)"
+            name="Layoffs index (exponential moving average, 3-month half-life)"
             opacity={1 / 3}
             stroke={COLOR.negative}
             strokeWidth={2}
@@ -174,9 +174,9 @@ export default function NetDemand() {
       </ResponsiveContainer>
       <div>
         <small>
-          Trends use exponential moving averages with a 30-day half-life, using
-          all available data sources and indexed to 100 for the start of each
-          series
+          Trends use exponential moving averages with a 30-day half-life for job
+          postings and a 3-month (90-day) half-life for layoffs, using all
+          available data sources and indexed to 100 for the start of each series
         </small>
       </div>
       <label style={{ display: "block", marginBlock: "1em" }}>
